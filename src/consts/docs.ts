@@ -2,32 +2,6 @@
 
 export const DOCS = [
   {
-    type: 'APP',
-    color: 'blue.100',
-    child: [
-      {
-        name: 'Flux',
-        linkEn: 'https://flux.01.finance',
-        linkZh: 'https://flux.01.finance',
-      },
-      {
-        name: 'Hot Pot',
-        linkEn: 'https://hotpot.cool/',
-        linkZh: 'https://hotpot.cool/',
-      },
-      {
-        name: 'Vigoss',
-        linkEn: 'https://vigoss.01.finance',
-        linkZh: 'https://vigoss.01.finance',
-      },
-      {
-        name: 'Whoops',
-        linkEn: 'http://www.whoops.world/',
-        linkZh: 'http://www.whoops.world/',
-      },
-    ],
-  },
-  {
     type: 'Docs',
     color: 'purple.200',
     child: [

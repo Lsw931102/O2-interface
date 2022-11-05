@@ -56,7 +56,7 @@ function Index({ ...props }: FlexProps) {
                 display="flex"
                 direction="column"
               >
-                <Text textStyle="16" color={item?.color}>
+                <Text fontWeight="700" textStyle="16" color={item?.color}>
                   <Trans>{item?.type}</Trans>
                 </Text>
                 {item?.child?.map((it) => (
@@ -76,14 +76,14 @@ function Index({ ...props }: FlexProps) {
             ))}
           </Stack>
           <Stack spacing={{ base: px2vw(90), xl: '50px' }} display="flex" direction="row">
-            {DOCS?.slice(2, 4).map((item) => (
+            {DOCS?.slice(2, 3).map((item) => (
               <Stack
                 spacing={{ base: px2vw(14), xl: '12px' }}
                 key={item?.type}
                 display="flex"
                 direction="column"
               >
-                <Text textStyle="16" color={item?.color}>
+                <Text fontWeight="700" textStyle="16" color={item?.color}>
                   <Trans>{item?.type}</Trans>
                 </Text>
                 {item?.child?.map((it) => (

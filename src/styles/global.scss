@@ -1,4 +1,11 @@
 // 全局class
+
+@font-face {
+  font-weight: 300;
+  font-family: 'Rubik';
+  font-style: normal;
+  src: url('/fonts/Rubik-Light.ttf') format('truetype');
+}
 @font-face {
   font-weight: 400;
   font-family: 'Rubik';
@@ -10,12 +17,6 @@
   font-family: 'Rubik';
   font-style: normal;
   src: url('/fonts/Rubik-Medium.ttf') format('truetype');
-}
-@font-face {
-  font-weight: 600;
-  font-family: 'Rubik';
-  font-style: normal;
-  src: url('/fonts/Rubik-SemiBold.ttf') format('truetype');
 }
 @font-face {
   font-weight: bold;

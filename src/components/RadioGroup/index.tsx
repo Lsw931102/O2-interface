@@ -16,16 +16,15 @@ function RadioCard(props: any) {
         {...checkbox}
         minW={{ base: px2vw(131), xl: '132px' }}
         p={{ base: `${px2vw(8)} ${px2vw(14)}`, xl: '8px 14px' }}
-        color="white"
+        color="grey.50"
         textStyle="14"
-        bg="gray.200"
-        opacity="0.3"
+        bg="grey.275"
         cursor="pointer"
         borderRadius="select"
         textAlign="center"
         _checked={{
-          bg: 'gray.400',
-          opacity: 1,
+          color: 'white',
+          bg: 'grey.400',
         }}
         {...props?.itemStyle}
       >

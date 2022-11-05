@@ -22,8 +22,10 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
         w="124px"
         text={t('Deposit')}
         buttonType="add"
+        bgColor="green.570"
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
+        textStyle={{ color: 'white' }}
         buttonClick={() => {
           onButtonsClick('Deposit', record)
         }}
@@ -32,8 +34,10 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
         w="138px"
         text={t('Withdraw')}
         buttonType="remove"
+        bgColor="green.570"
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
+        textStyle={{ color: 'white' }}
         buttonClick={() => {
           onButtonsClick('Withdraw', record)
         }}
@@ -42,8 +46,10 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
         w="121px"
         text={t('Borrow')}
         buttonType="add"
+        bgColor="green.570"
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
+        textStyle={{ color: 'white' }}
         buttonClick={() => {
           onButtonsClick('Borrow', record)
         }}
@@ -52,8 +58,10 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
         w="112px"
         text={t('Repay')}
         buttonType="remove"
+        bgColor="green.570"
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
+        textStyle={{ color: 'white' }}
         buttonClick={() => {
           onButtonsClick('Repay', record)
         }}
@@ -62,13 +70,15 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
         w="149px"
         text={t('TokenInfo')}
         buttonType="shutOff"
+        bgColor="green.570"
         iconBg="gray.700"
+        iconStyle={{ color: 'white' }}
         textStyle={{
           marginRight: '15px',
           whiteSpace: 'nowrap',
+          color: 'white',
         }}
         specialIcon={<Image src={signal} />}
-        iconStyle={{ color: 'green.100' }}
         onClick={() => router.push(`/marketinfo?token=${underlying}`)}
       />
     </HStack>
