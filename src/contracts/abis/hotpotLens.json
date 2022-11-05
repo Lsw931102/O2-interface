@@ -1,0 +1,179 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract Gateway",
+        "name": "gateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "getGatewayMeta",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint64",
+            "name": "remotePolyId",
+            "type": "uint64"
+          },
+          {
+            "internalType": "address",
+            "name": "remoteGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "vault",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "vaultCash",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "vaultBorrowLimit",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "feeFlux",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "feeToken",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fluxPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fluxBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nativeBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenAllowance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fluxAllowance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "bindStatus",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct HotpotLens.GatewayMeta",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract Vault",
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "getVaultMeta",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "cash",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "borrowLimit",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "totalToken",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fluxPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nativeBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenAllowance",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct HotpotLens.VaultMeta",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

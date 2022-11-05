@@ -1,0 +1,178 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      }
+    ],
+    "name": "getProfitability",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "int256",
+            "name": "apy",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "loanIncome",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "loanExpenses",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fluxIncome",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "supplyValue",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "borrowValue",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address[]",
+            "name": "markets",
+            "type": "address[]"
+          },
+          {
+            "internalType": "int256[]",
+            "name": "supplyAPYs",
+            "type": "int256[]"
+          },
+          {
+            "internalType": "int256[]",
+            "name": "borrowAPYs",
+            "type": "int256[]"
+          },
+          {
+            "internalType": "int256[]",
+            "name": "borrowFluxAPYs",
+            "type": "int256[]"
+          },
+          {
+            "internalType": "int256[]",
+            "name": "supplyFluxAPYs",
+            "type": "int256[]"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "supply",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "borrow",
+            "type": "uint256[]"
+          }
+        ],
+        "internalType": "struct SearchProvider.SummaryVars",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0xcad92a5f"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      }
+    ],
+    "name": "unclaimedFluxAtLoan",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "total",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address[]",
+        "name": "markets",
+        "type": "address[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "bySupply",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "byBorrow",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0x3da7ae05"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      }
+    ],
+    "name": "unclaimedFlux",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0xb6556fd3"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      }
+    ],
+    "name": "unclaimedFluxAtStake",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "total",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address[]",
+        "name": "stakePools",
+        "type": "address[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "rewards",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0xae63733c"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "title": "历史记录",
+  "BankTransaction": "市场交易",
+  "FarmTransaction": "农场交易",
+  "Liquidated": "清算",
+  "All": "全部",
+  "Deposit": "存款",
+  "Borrow": "借款",
+  "Repay": "还款",
+  "Withdraw": "取款",
+  "Claim": "提取",
+  "Cross": "跨链",
+  "CrossChain": "跨链",
+  "Approve": "授权",
+  "Stake": "质押",
+  "Unstake": "赎回"
+}

@@ -1,0 +1,105 @@
+// 全局class
+@font-face {
+  font-weight: 400;
+  font-family: 'Rubik';
+  font-style: normal;
+  src: url('/fonts/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-weight: 500;
+  font-family: 'Rubik';
+  font-style: normal;
+  src: url('/fonts/Rubik-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-weight: 600;
+  font-family: 'Rubik';
+  font-style: normal;
+  src: url('/fonts/Rubik-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-weight: bold;
+  font-family: 'Rubik';
+  font-style: normal;
+  src: url('/fonts/Rubik-Bold.ttf') format('truetype');
+}
+
+// 单行文本溢出
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// 清浮动
+.clearfix {
+  *zoom: 1;
+
+  &::before,
+  &::after {
+    display: table;
+    clear: both;
+    content: ' ';
+  }
+
+  &::after {
+    display: block;
+    height: 1px;
+    margin-top: -1px;
+    visibility: hidden;
+  }
+}
+
+// swiper样式
+.swiper-pagination,
+.topPaginationbullets {
+  bottom: 30px !important;
+  .swiper-pagination-bullet {
+    width: 5px !important;
+    height: 5px !important;
+    border: 1px solid #d2e4ff !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #d2e4ff !important;
+  }
+}
+
+.topPaginationbullets {
+  top: 40px !important;
+  width: 100%;
+  .swiper-pagination-bullet {
+    margin: 0 4px !important;
+  }
+}
+
+// toast样式覆盖
+.Toastify__toast-container {
+  width: auto !important;
+}
+.toastBody {
+  background: transparent !important;
+  .Toastify__close-button {
+    display: none;
+  }
+}
+
+/* stylelint-disable */
+.dark-input {
+  input::-webkit-input-placeholder {
+    /* WebKit browsers 适配谷歌 */
+    color: #aab9de;
+  }
+  input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 适配火狐 */
+    color: #aab9de;
+  }
+  input::-moz-placeholder {
+    /* Mozilla Firefox 19+ 适配火狐 */
+    color: #aab9de;
+  }
+  input:-ms-input-placeholder {
+    /* Internet Explorer 10+  适配ie */
+    color: #aab9de;
+  }
+}
+/* stylelint-enable */

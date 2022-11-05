@@ -1,0 +1,327 @@
+[
+  {
+    "inputs": [],
+    "name": "getFluxPrice",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0x0753cd73"
+  },
+  {
+    "inputs": [],
+    "name": "getLoanPoolReport",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tvl",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "totalSupply",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "totalBorrow",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "priceUSD",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "supplyInterestPreDay",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "borrowInterestPreDay",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "supplyFluxAPY",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "borrowFluxAPY",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "underlying",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct FluxReport.LoanPoolReport[]",
+        "name": "pools",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0x20856738"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "mkt",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      }
+    ],
+    "name": "getLoanPoolMeta",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "userBorrowings",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "userDeposits",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "userUnderlyingAllowance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "userUnderlyingBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "userBorrowLimit",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "userWithdrawLimit",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "underlying",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "underlyingPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "borrowCap",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "reserveFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxinumLTVRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "liquidationFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "ftokenSupply",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "totalBorrows",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "liquidity",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "exchangeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "borrowAPY",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "depositAPY",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "depositDistributionFluxAPY",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "borrowDistributionFluxAPY",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct FluxReport.MarketMeta",
+        "name": "meta",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0x4fdb91af"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      }
+    ],
+    "name": "getAllStakeMeta",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "pool",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "staked",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenAllownce",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "totalSupply",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "tokenDecimals",
+            "type": "uint8"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "pool",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "tvl",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "apy",
+                "type": "uint256"
+              },
+              {
+                "internalType": "address",
+                "name": "token0",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "token1",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "token0Staked",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "token1Staked",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "token0PriceUSD",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "token1PriceUSD",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct FluxReport.StakePoolReport",
+            "name": "poolMeta",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct FluxReport.StakeMeta[]",
+        "name": "pools",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0x4212f6f8"
+  }
+]

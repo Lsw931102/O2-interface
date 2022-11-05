@@ -1,0 +1,33 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "acct",
+        "type": "address"
+      }
+    ],
+    "name": "getAcctSnapshot",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "supplyValueMan",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "borrowValueMan",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "borrowLimitMan",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true,
+    "signature": "0x61aab787"
+  }
+]

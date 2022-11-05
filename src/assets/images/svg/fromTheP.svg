@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="people3" image-rendering="optimizeSpeed" baseProfile="basic" version="1.1" x="0px" y="0px" width="355" height="120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="filter" filterUnits="objectBoundingBox" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 .8 0 0 0 0 .2 0 0 0 1 0" result="colorTrans"/>
+    </filter>
+    <filter id="filter1" filterUnits="objectBoundingBox" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" result="colorTrans"/>
+    </filter>
+    <filter id="filter2" filterUnits="objectBoundingBox" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 .2 0 0 0 0 .4 0 0 0 1 0" result="colorTrans"/>
+    </filter>
+    <filter id="filter3" filterUnits="objectBoundingBox" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 .2 0 0 0 0 .8 0 0 0 0 .6 0 0 0 1 0" result="colorTrans"/>
+    </filter>
+    <filter id="filter4" filterUnits="objectBoundingBox" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 .2 0 0 0 0 .4 0 0 0 0 .8 0 0 0 1 0" result="colorTrans"/>
+    </filter>
+    <filter id="filter5" filterUnits="objectBoundingBox" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 .6 0 0 0 0 .8 0 0 0 0 .4 0 0 0 1 0" result="colorTrans"/>
+    </filter>
+    <g id="clapMand54" overflow="visible">
+      <g display="none">
+        <g id="Symbol-62" transform="translate(-2.05 11.85)">
+          <g id="Symbol 39_0.0">
+            <g>
+              <g id="Layer54_0_FILL">
+                <path fill="url(#Gradient_1)" stroke="none" d="M11.1 -1.15Q9.8 -6.05 5.3 -9.6 .85 -13.05 -4.1 -13.05L-5.7 -13.05Q-10.65 -13.05 -13.25 -9.6 -15.8 -6.05 -14.5 -1.15L-10.95 12.1Q-10.8 12.6 -10.65 13.1L14.9 13.1Q14.8 12.6 14.65 12.1L11.1 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.481;.5;.981;1" values="none;inline;none;inline;inline"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-61" transform="translate(-2.05 11.85)">
+          <g id="Symbol 38_0.0">
+            <g>
+              <g id="Layer53_0_FILL">
+                <path fill="url(#Gradient_2)" stroke="none" d="M11.15 -1.15Q9.85 -6.05 5.35 -9.6 .95 -13.05 -4 -13.05L-5.6 -13.05Q-10.55 -13.05 -13.2 -9.6 -15.75 -6.05 -14.45 -1.15L-10.95 12.1Q-10.8 12.6 -10.65 13.1L14.9 13.1Q14.8 12.6 14.65 12.1L11.15 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.463;.481;.963;.981;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-60" transform="translate(-1.95 11.8)">
+          <g id="Symbol 37_0.0">
+            <g>
+              <g id="Layer52_0_FILL">
+                <path fill="url(#Gradient_3)" stroke="none" d="M11.15 -1.15Q9.9 -6.05 5.45 -9.6 1.05 -13.1 -3.9 -13.1L-5.5 -13.1Q-10.45 -13.1 -13.1 -9.6 -15.7 -6.05 -14.45 -1.15L-11.05 12.15Q-10.95 12.65 -10.75 13.15L14.8 13.15Q14.65 12.65 14.55 12.15L11.15 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.444;.463;.944;.963;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-59" transform="translate(-1.85 11.75)">
+          <g id="Symbol 36_0.0">
+            <g>
+              <g id="Layer51_0_FILL">
+                <path fill="url(#Gradient_4)" stroke="none" d="M11.25 -1.15Q10.1 -6.1 5.7 -9.65 1.35 -13.1 -3.6 -13.1L-5.2 -13.1Q-10.15 -13.1 -12.85 -9.65 -15.5 -6.1 -14.35 -1.15L-11.1 12.2Q-11 12.65 -10.85 13.15L14.7 13.15Q14.6 12.65 14.5 12.2L11.25 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.426;.444;.926;.944;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-58" transform="translate(-1.65 11.7)">
+          <g id="Symbol 35_0.0">
+            <g>
+              <g id="Layer50_0_FILL">
+                <path fill="url(#Gradient_5)" stroke="none" d="M11.35 -1.15Q10.25 -6.1 5.9 -9.65 1.6 -13.2 -3.35 -13.2L-4.95 -13.2Q-9.9 -13.2 -12.65 -9.65 -15.35 -6.1 -14.25 -1.15L-11.3 12.25Q-11.15 12.75 -11 13.25L14.55 13.25Q14.45 12.75 14.3 12.25L11.35 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.407;.426;.907;.926;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-57" transform="translate(-1.45 11.6)">
+          <g id="Symbol 34_0.0">
+            <g>
+              <g id="Layer49_0_FILL">
+                <path fill="url(#Gradient_6)" stroke="none" d="M11.5 -1.15Q10.55 -6.15 6.3 -9.7 2.1 -13.25 -2.85 -13.25L-4.45 -13.25Q-9.4 -13.25 -12.25 -9.7 -15.05 -6.15 -14.1 -1.15L-11.45 12.3Q-11.35 12.8 -11.2 13.3L14.35 13.3Q14.25 12.8 14.15 12.3L11.5 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.389;.407;.889;.907;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-56" transform="translate(-1.2 11.55)">
+          <g id="Symbol 33_0.0">
+            <g>
+              <g id="Layer48_0_FILL">
+                <path fill="url(#Gradient_7)" stroke="none" d="M11.65 -1.15Q10.85 -6.2 6.7 -9.8 2.6 -13.3 -2.35 -13.3L-3.95 -13.3Q-8.9 -13.3 -11.85 -9.8 -14.75 -6.2 -13.95 -1.15L-11.7 12.35Q-11.65 12.85 -11.5 13.35L14.05 13.35Q13.95 12.85 13.9 12.35L11.65 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.37;.389;.87;.889;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-55" transform="translate(-.9 11.5)">
+          <g id="Symbol 32_0.0">
+            <g>
+              <g id="Layer47_0_FILL">
+                <path fill="url(#Gradient_8)" stroke="none" d="M11.9 -1.15Q11.25 -6.2 7.25 -9.85 3.3 -13.4 -1.65 -13.4L-3.25 -13.4Q-8.2 -13.4 -11.3 -9.85 -14.35 -6.2 -13.7 -1.15L-11.95 12.45Q-11.9 12.95 -11.75 13.45L13.8 13.45Q13.7 12.95 13.65 12.45L11.9 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.352;.37;.852;.87;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-54" transform="translate(-.6 11.45)">
+          <g id="Symbol 31_0.0">
+            <g>
+              <g id="Layer46_0_FILL">
+                <path fill="url(#Gradient_9)" stroke="none" d="M12.15 -1.2Q11.7 -6.25 7.85 -9.85 4 -13.45 -.95 -13.45L-2.55 -13.45Q-7.5 -13.45 -10.7 -9.85 -13.9 -6.25 -13.45 -1.2L-12.25 12.5Q-12.2 13 -12.1 13.5L13.45 13.5Q13.4 13 13.35 12.5L12.15 -1.2Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.333;.352;.833;.852;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-53" transform="translate(-.25 11.4)">
+          <g id="Symbol 30_0.0">
+            <g>
+              <g id="Layer45_0_FILL">
+                <path fill="url(#Gradient_10)" stroke="none" d="M12.45 -1.2Q12.2 -6.25 8.5 -9.9 4.85 -13.5 -.1 -13.5L-1.7 -13.5Q-6.65 -13.5 -10.05 -9.9 -13.4 -6.25 -13.15 -1.2L-12.55 12.5Q-12.55 13.05 -12.45 13.55L13.1 13.55Q13.05 13.05 13.05 12.5L12.45 -1.2Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.333;.815;.833;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-52" transform="translate(.05 11.4)">
+          <g id="Symbol 29_0.0">
+            <g>
+              <g id="Layer44_0_FILL">
+                <path fill="url(#Gradient_11)" stroke="none" d="M12.85 -1.2Q12.9 -6.25 9.35 -9.9 5.85 -13.5 .9 -13.5L-.7 -13.5Q-5.65 -13.5 -9.2 -9.9 -12.7 -6.25 -12.75 -1.2L-12.8 12.55Q-12.8 13.05 -12.75 13.55L12.8 13.55Q12.8 13.05 12.8 12.55L12.85 -1.2Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.315;.796;.815;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-51" transform="translate(.5 11.4)">
+          <g id="Symbol 28_0.0">
+            <g>
+              <g id="Layer43_0_FILL">
+                <path fill="url(#Gradient_12)" stroke="none" d="M13.2 -1.2Q13.55 -6.25 10.2 -9.9 6.95 -13.5 2 -13.5L.4 -13.5Q-4.55 -13.5 -8.35 -9.9 -12.05 -6.25 -12.4 -1.2L-13.2 12.5Q-13.25 13 -13.25 13.55L12.3 13.55Q12.35 13 12.4 12.5L13.2 -1.2Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.296;.778;.796;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-50" transform="translate(.95 11.5)">
+          <g id="Symbol 27_0.0">
+            <g>
+              <g id="Layer42_0_FILL">
+                <path fill="url(#Gradient_13)" stroke="none" d="M13.65 -1.15Q14.25 -6.2 11.15 -9.85 8.1 -13.4 3.15 -13.4L1.55 -13.4Q-3.4 -13.4 -7.4 -9.85 -11.35 -6.2 -11.95 -1.15L-13.65 12.45Q-13.7 12.95 -13.7 13.45L11.85 13.45Q11.9 12.95 11.95 12.45L13.65 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.259;.278;.759;.778;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-49" transform="translate(1.5 11.6)">
+          <g id="Symbol 26_0.0">
+            <g>
+              <g id="Layer41_0_FILL">
+                <path fill="url(#Gradient_14)" stroke="none" d="M14.05 -1.15Q15 -6.15 12.15 -9.75 9.35 -13.25 4.4 -13.25L2.8 -13.25Q-2.15 -13.25 -6.4 -9.75 -10.6 -6.15 -11.55 -1.15L-14.1 12.3Q-14.2 12.8 -14.25 13.3L11.3 13.3Q11.4 12.8 11.5 12.3L14.05 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.241;.259;.741;.759;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-48" transform="translate(2.2 11.8)">
+          <g id="Symbol 25_0.0">
+            <g>
+              <g id="Layer40_0_FILL">
+                <path fill="url(#Gradient_15)" stroke="none" d="M14.45 -1.15Q15.75 -6.05 13.15 -9.6 10.6 -13.05 5.65 -13.05L4.05 -13.05Q-.9 -13.05 -5.4 -9.6 -9.85 -6.05 -11.15 -1.15L-14.7 12.1Q-14.85 12.6 -14.9 13.1L10.65 13.1Q10.75 12.6 10.9 12.1L14.45 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.241;.722;.741;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-47" transform="translate(2.1 11.9)">
+          <g id="Symbol 24_0.0">
+            <g>
+              <g id="Layer39_0_FILL">
+                <path fill="url(#Gradient_16)" stroke="none" d="M14.45 -1.15Q15.75 -6.05 13.15 -9.6 10.55 -13.05 5.6 -13.05L4 -13.05Q-.95 -13.05 -5.4 -9.6 -9.85 -6.05 -11.15 -1.15L-14.65 12.1Q-14.75 12.6 -14.85 13.1L10.7 13.1Q10.85 12.6 10.95 12.1L14.45 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.204;.222;.704;.722;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-46" transform="translate(2 11.8)">
+          <g id="Symbol 23_0.0">
+            <g>
+              <g id="Layer38_0_FILL">
+                <path fill="url(#Gradient_17)" stroke="none" d="M14.4 -1.15Q15.6 -6.05 12.95 -9.6 10.35 -13.1 5.4 -13.1L3.8 -13.1Q-1.15 -13.1 -5.6 -9.6 -10 -6.05 -11.2 -1.15L-14.55 12.15Q-14.65 12.65 -14.75 13.15L10.8 13.15Q10.95 12.65 11.05 12.15L14.4 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.185;.204;.685;.704;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-45" transform="translate(1.9 11.75)">
+          <g id="Symbol 22_0.0">
+            <g>
+              <g id="Layer37_0_FILL">
+                <path fill="url(#Gradient_18)" stroke="none" d="M14.25 -1.15Q15.4 -6.1 12.7 -9.65 10 -13.15 5.05 -13.15L3.45 -13.15Q-1.5 -13.15 -5.85 -9.65 -10.2 -6.1 -11.35 -1.15L-14.45 12.2Q-14.55 12.7 -14.6 13.2L10.95 13.2Q11.05 12.7 11.15 12.2L14.25 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.185;.667;.685;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-44" transform="translate(1.65 11.7)">
+          <g id="Symbol 21_0.0">
+            <g>
+              <g id="Layer36_0_FILL">
+                <path fill="url(#Gradient_19)" stroke="none" d="M14.15 -1.15Q15.15 -6.15 12.35 -9.7 9.55 -13.25 4.6 -13.25L3 -13.25Q-1.95 -13.25 -6.2 -9.7 -10.45 -6.15 -11.45 -1.15L-14.2 12.25Q-14.3 12.75 -14.35 13.3L11.2 13.3Q11.3 12.75 11.4 12.25L14.15 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.167;.648;.667;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-43" transform="translate(1.35 11.6)">
+          <g id="Symbol 20_0.0">
+            <g>
+              <g id="Layer35_0_FILL">
+                <path fill="url(#Gradient_20)" stroke="none" d="M13.95 -1.15Q14.8 -6.15 11.9 -9.75 9 -13.3 4.05 -13.3L2.45 -13.3Q-2.5 -13.3 -6.65 -9.75 -10.8 -6.15 -11.65 -1.15L-13.95 12.35Q-14.05 12.85 -14.1 13.35L11.45 13.35Q11.55 12.85 11.65 12.35L13.95 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.13;.148;.63;.648;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-42" transform="translate(1 11.55)">
+          <g id="Symbol 19_0.0">
+            <g>
+              <g id="Layer34_0_FILL">
+                <path fill="url(#Gradient_21)" stroke="none" d="M13.7 -1.15Q14.35 -6.2 11.25 -9.85 8.2 -13.4 3.25 -13.4L1.65 -13.4Q-3.3 -13.4 -7.3 -9.85 -11.25 -6.2 -11.9 -1.15L-13.65 12.45Q-13.7 12.95 -13.75 13.45L11.8 13.45Q11.9 12.95 11.95 12.45L13.7 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.13;.611;.63;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-41" transform="translate(.65 11.45)">
+          <g id="Symbol 18_0.0">
+            <g>
+              <g id="Layer33_0_FILL">
+                <path fill="url(#Gradient_22)" stroke="none" d="M13.4 -1.2Q13.8 -6.25 10.55 -9.9 7.35 -13.45 2.4 -13.45L.8 -13.45Q-4.15 -13.45 -8 -9.9 -11.8 -6.25 -12.2 -1.2L-13.35 12.5Q-13.4 13 -13.4 13.5L12.15 13.5Q12.2 13 12.25 12.5L13.4 -1.2Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.093;.111;.593;.611;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-40" transform="translate(.2 11.45)">
+          <g id="Symbol 17_0.0">
+            <g>
+              <g id="Layer32_0_FILL">
+                <path fill="url(#Gradient_23)" stroke="none" d="M13 -1.2Q13.1 -6.25 9.65 -9.9 6.25 -13.5 1.3 -13.5L-.3 -13.5Q-5.25 -13.5 -8.9 -9.9 -12.5 -6.25 -12.6 -1.2L-13 12.55Q-13 13.05 -12.95 13.55L12.6 13.55Q12.6 13.05 12.6 12.55L13 -1.2Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.074;.093;.574;.593;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-39" transform="translate(-.15 11.45)">
+          <g id="Symbol 16_0.0">
+            <g>
+              <g id="Layer31_0_FILL">
+                <path fill="url(#Gradient_24)" stroke="none" d="M12.55 -1.2Q12.4 -6.25 8.75 -9.9 5.15 -13.5 .2 -13.5L-1.4 -13.5Q-6.35 -13.5 -9.8 -9.9 -13.2 -6.25 -13.05 -1.2L-12.6 12.55Q-12.6 13.05 -12.55 13.55L13 13.55Q13 13.05 13 12.55L12.55 -1.2Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.074;.556;.574;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-38" transform="translate(-.65 11.5)">
+          <g id="Symbol 15_0.0">
+            <g>
+              <g id="Layer30_0_FILL">
+                <path fill="url(#Gradient_25)" stroke="none" d="M12.1 -1.15Q11.55 -6.25 7.65 -9.85 3.8 -13.45 -1.15 -13.45L-2.75 -13.45Q-7.7 -13.45 -10.9 -9.85 -14.05 -6.25 -13.5 -1.15L-12.15 12.45Q-12.1 13 -12 13.5L13.55 13.5Q13.5 13 13.45 12.45L12.1 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.037;.056;.537;.556;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-37" transform="translate(-1.3 11.65)">
+          <g id="Symbol 14_0.0">
+            <g>
+              <g id="Layer29_0_FILL">
+                <path fill="url(#Gradient_26)" stroke="none" d="M11.6 -1.15Q10.7 -6.15 6.5 -9.75 2.4 -13.3 -2.55 -13.3L-4.15 -13.3Q-9.1 -13.3 -12.05 -9.75 -14.9 -6.15 -14 -1.15L-11.6 12.35Q-11.5 12.85 -11.4 13.35L14.15 13.35Q14.1 12.85 14 12.35L11.6 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.037;.519;.537;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g>
+        <g id="Symbol-36" transform="translate(-2.05 11.85)">
+          <g id="Symbol 13_0.0">
+            <g>
+              <g id="Layer28_0_FILL">
+                <path fill="url(#Gradient_1)" stroke="none" d="M11.1 -1.15Q9.8 -6.05 5.3 -9.6 .85 -13.05 -4.1 -13.05L-5.7 -13.05Q-10.65 -13.05 -13.25 -9.6 -15.8 -6.05 -14.5 -1.15L-10.95 12.1Q-10.8 12.6 -10.65 13.1L14.9 13.1Q14.8 12.6 14.65 12.1L11.1 -1.15Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.5;.519;1" values="inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-35" transform="translate(-18.55 -8.2)">
+          <g id="Symbol 66_0.0">
+            <g>
+              <g id="Layer27_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M6.35 -6.35Q3.7 -9 0 -9 -3.7 -9 -6.35 -6.35 -9 -3.7 -9 0 -9 3.7 -6.35 6.35 -3.7 9 0 9 3.7 9 6.35 6.35 9 3.7 9 0 9 -3.7 6.35 -6.35M1.85 -5.5Q2.05 -5.5 2.25 -5.4 2.4 -5.25 2.4 -5.05 2.4 -4.85 2.3 -4.7 2.15 -4.5 1.95 -4.5 .35 -4.35 .2 -2.75 .2 -2.55 .05 -2.45 -.15 -2.3 -.35 -2.3 -.55 -2.3 -.65 -2.5 -.8 -2.65 -.8 -2.85 -.55 -5.25 1.85 -5.5M3.1 -.55Q3.25 -.7 3.45 -.7 3.6 -.7 3.75 -.6 3.9 -.5 3.95 -.3 4.5 2.65 3.35 3.75 2.2 4.95 -.6 4.2 -.8 4.2 -.9 4.05 -1 3.9 -1 3.7 -1 3.5 -.85 3.4L3.1 -.55M-2.2 -1.45Q-2 -1.45 -1.8 -1.35 -1.65 -1.2 -1.65 -1 -1.65 -.8 -1.75 -.65 -1.9 -.45 -2.1 -.45 -3.7 -.3 -3.85 1.3 -3.85 1.5 -4 1.6 -4.2 1.75 -4.4 1.75 -4.6 1.75 -4.7 1.55 -4.85 1.4 -4.85 1.2 -4.6 -1.2 -2.2 -1.45Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.481;.5;.981;1" values="none;inline;none;inline;inline"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-34" transform="translate(-18.35 -8.2)">
+          <g id="Symbol 65_0.0">
+            <g>
+              <g id="Layer26_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M6.4 -6.3Q3.75 -9 .05 -9 -3.65 -9 -6.3 -6.4 -9 -3.75 -9 -.05 -9 3.65 -6.4 6.3 -3.75 9 -.05 9 3.65 9 6.3 6.4 9 3.75 9 .05 9 -3.65 6.4 -6.3M1.9 -5.5Q2.1 -5.5 2.3 -5.4 2.45 -5.25 2.45 -5.05 2.45 -4.85 2.3 -4.7 2.15 -4.5 1.95 -4.5 .35 -4.35 .2 -2.75 .2 -2.55 .05 -2.45 -.15 -2.3 -.35 -2.3 -.55 -2.3 -.65 -2.5 -.8 -2.65 -.8 -2.85 -.5 -5.25 1.9 -5.5M3.1 -.55Q3.25 -.7 3.45 -.7 3.6 -.7 3.75 -.6 3.9 -.5 3.95 -.3 4.5 2.65 3.35 3.75 2.15 4.95 -.6 4.2 -.8 4.2 -.9 4.05 -1 3.9 -1 3.7 -1 3.5 -.85 3.4L3.1 -.55M-2.2 -1.45Q-2 -1.45 -1.8 -1.35 -1.65 -1.2 -1.65 -1 -1.65 -.8 -1.75 -.65 -1.9 -.45 -2.1 -.45 -3.7 -.3 -3.85 1.3 -3.85 1.5 -4 1.6 -4.2 1.75 -4.4 1.75 -4.6 1.75 -4.7 1.55 -4.85 1.35 -4.85 1.15 -4.6 -1.2 -2.2 -1.45Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.463;.481;.963;.981;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-33" transform="translate(-17.8 -8.2)">
+          <g id="Symbol 64_0.0">
+            <g>
+              <g id="Layer25_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M6.55 -6.15Q4 -8.9 .3 -9 -3.4 -9.1 -6.15 -6.55 -8.9 -4 -9 -.3 -9.1 3.4 -6.55 6.15 -4 8.9 -.3 9 3.4 9.1 6.15 6.55 8.9 4 9 .3 9.1 -3.4 6.55 -6.15M2 -5.45Q2.2 -5.45 2.4 -5.35 2.55 -5.2 2.55 -5 2.55 -4.8 2.45 -4.65 2.3 -4.45 2.1 -4.45 .5 -4.35 .3 -2.75 .3 -2.55 .15 -2.45 -.1 -2.3 -.3 -2.3 -.5 -2.3 -.55 -2.5 -.7 -2.65 -.7 -2.85 -.4 -5.25 2 -5.45M3.1 -.45Q3.25 -.6 3.45 -.6 3.6 -.6 3.75 -.5 3.9 -.4 3.95 -.2 4.4 2.8 3.25 3.85 2.05 5 -.75 4.2 -.95 4.2 -1.05 4 -1.1 3.85 -1.1 3.65 -1.1 3.45 -.95 3.35L3.1 -.45M-2.15 -1.5Q-1.95 -1.5 -1.75 -1.4 -1.6 -1.25 -1.6 -1.05 -1.65 -.85 -1.75 -.7 -1.9 -.5 -2.1 -.5 -3.7 -.4 -3.9 1.2 -3.9 1.4 -4.05 1.5 -4.25 1.6 -4.45 1.6 -4.65 1.6 -4.75 1.4 -4.9 1.25 -4.9 1.05 -4.55 -1.35 -2.15 -1.5Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.444;.463;.944;.963;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-32" transform="translate(-16.8 -8.2)">
+          <g id="Symbol 63_0.0">
+            <g>
+              <g id="Layer24_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M6.8 -5.9Q4.35 -8.75 .65 -9 -3.05 -9.25 -5.9 -6.8 -8.75 -4.35 -9 -.65 -9.25 3.05 -6.8 5.9 -4.35 8.75 -.65 9 3.05 9.25 5.9 6.8 8.75 4.35 9 .65 9.25 -3.05 6.8 -5.9M.4 -2.75Q.4 -2.55 .2 -2.45 0 -2.3 -.2 -2.3 -.4 -2.35 -.45 -2.55 -.6 -2.7 -.6 -2.9 -.2 -5.3 2.25 -5.35 2.45 -5.35 2.65 -5.25 2.75 -5.1 2.75 -4.9 2.75 -4.7 2.65 -4.55 2.45 -4.35 2.25 -4.35 .65 -4.35 .4 -2.75M3.5 -.45Q3.65 -.45 3.8 -.35 3.95 -.25 3.95 0 4.3 2.95 3.1 4 1.85 5.1 -.9 4.15 -1.1 4.15 -1.2 4 -1.25 3.85 -1.25 3.65 -1.25 3.45 -1.1 3.35L3.15 -.35Q3.3 -.45 3.5 -.45M-2.1 -1.6Q-1.9 -1.6 -1.7 -1.5 -1.55 -1.3 -1.6 -1.1 -1.6 -.9 -1.7 -.75 -1.85 -.6 -2.05 -.6 -3.7 -.55 -3.95 1.05 -3.95 1.25 -4.1 1.3 -4.3 1.45 -4.5 1.45 -4.7 1.45 -4.8 1.2 -4.95 1.05 -4.95 .85 -4.5 -1.5 -2.1 -1.6Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.426;.444;.926;.944;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-31" transform="translate(-15.5 -8.25)">
+          <g id="Symbol 62_0.0">
+            <g>
+              <g id="Layer23_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M7.1 -5.5Q4.8 -8.45 1.15 -8.9 -2.5 -9.35 -5.5 -7.1 -8.45 -4.8 -8.9 -1.15 -9.35 2.5 -7.1 5.5 -4.8 8.45 -1.15 8.9 2.5 9.35 5.5 7.1 8.45 4.8 8.9 1.15 9.35 -2.5 7.1 -5.5M.55 -2.7Q.5 -2.5 .35 -2.45 .15 -2.3 -.05 -2.35 -.25 -2.35 -.35 -2.6 -.45 -2.75 -.45 -2.95 .1 -5.25 2.55 -5.2 2.75 -5.2 2.95 -5.05 3.05 -4.9 3.05 -4.7 3 -4.5 2.9 -4.35 2.7 -4.2 2.5 -4.2 .9 -4.25 .55 -2.7M3.5 -.25Q3.65 -.25 3.8 -.15 3.9 0 3.95 .2 4.1 3.2 2.85 4.1 1.55 5.2 -1.15 4.05 -1.35 4.05 -1.4 3.9 -1.5 3.7 -1.45 3.5 -1.45 3.3 -1.3 3.25L3.1 -.15Q3.3 -.3 3.5 -.25M-2 -1.75Q-1.8 -1.7 -1.65 -1.6 -1.5 -1.4 -1.5 -1.2 -1.55 -1 -1.65 -.85 -1.85 -.7 -2.05 -.7 -3.6 -.75 -3.95 .8 -4 1 -4.15 1.1 -4.35 1.2 -4.55 1.2 -4.75 1.15 -4.85 .95 -5 .8 -4.95 .6 -4.4 -1.8 -2 -1.75Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.407;.426;.907;.926;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-30" transform="translate(-13.75 -8.25)">
+          <g id="Symbol 61_0.0">
+            <g>
+              <g id="Layer22_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M7.45 -4.95Q5.4 -8.05 1.75 -8.8 -1.9 -9.55 -4.95 -7.45 -8.05 -5.4 -8.8 -1.75 -9.55 1.9 -7.45 4.95 -5.4 8.05 -1.75 8.8 1.9 9.55 4.95 7.45 8.05 5.4 8.8 1.75 9.55 -1.9 7.45 -4.95M2.9 -5.05Q3.1 -5 3.25 -4.85 3.4 -4.7 3.35 -4.5 3.3 -4.3 3.15 -4.15 3 -4 2.8 -4 1.2 -4.2 .75 -2.65 .7 -2.45 .55 -2.4 .3 -2.3 .1 -2.3 -.1 -2.35 -.15 -2.6 -.3 -2.75 -.25 -2.95 .5 -5.25 2.9 -5.05M3.55 0Q3.7 0 3.75 .15 3.9 .25 3.9 .45 3.9 3.5 2.55 4.3 1.2 5.3 -1.4 4 -1.6 3.95 -1.7 3.75 -1.75 3.6 -1.75 3.45 -1.7 3.25 -1.5 3.2L3.15 .05Q3.35 -.05 3.55 0M-1.85 -1.85Q-1.65 -1.8 -1.5 -1.65 -1.35 -1.5 -1.4 -1.3 -1.45 -1.1 -1.55 -1 -1.75 -.8 -1.95 -.85 -3.6 -1.05 -4 .5 -4.05 .7 -4.2 .75 -4.45 .9 -4.65 .85 -4.85 .8 -4.9 .6 -5 .4 -5 .25 -4.25 -2.1 -1.85 -1.85Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.389;.407;.889;.907;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-29" transform="translate(-11.65 -8.3)">
+          <g id="Symbol 60_0.0">
+            <g>
+              <g id="Layer21_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M7.9 -4.3Q6.1 -7.55 2.55 -8.6 -1 -9.65 -4.3 -7.9 -7.55 -6.1 -8.6 -2.55 -9.65 1 -7.9 4.3 -6.1 7.55 -2.55 8.6 1 9.65 4.3 7.9 7.55 6.1 8.6 2.55 9.65 -1 7.9 -4.3M3.3 -4.7Q3.5 -4.65 3.7 -4.5 3.8 -4.35 3.75 -4.15 3.7 -3.95 3.55 -3.85 3.35 -3.7 3.15 -3.75 1.6 -4.05 1 -2.6 .9 -2.4 .75 -2.35 .5 -2.25 .3 -2.3 .1 -2.35 .1 -2.6 0 -2.8 .05 -3 .95 -5.2 3.3 -4.7M3.1 .35Q3.3 .25 3.5 .35 3.65 .35 3.75 .5 3.9 .6 3.9 .8 3.55 3.85 2.15 4.55 .7 5.4 -1.75 3.85 -1.95 3.75 -2 3.65 -2.05 3.45 -2 3.25 -1.95 3.05 -1.75 3L3.1 .35M-1.7 -2.05Q-1.5 -1.95 -1.3 -1.8 -1.25 -1.6 -1.3 -1.4 -1.35 -1.2 -1.5 -1.1 -1.65 -1 -1.85 -1.05 -3.45 -1.35 -4.05 .15 -4.15 .35 -4.3 .4 -4.5 .5 -4.7 .45 -4.9 .4 -4.95 .15 -5.05 -.05 -5 -.25 -4.05 -2.45 -1.7 -2.05Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.37;.389;.87;.889;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-28" transform="translate(-9.15 -8.3)">
+          <g id="Symbol 59_0.0">
+            <g>
+              <g id="Layer20_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.3 -3.4Q6.85 -6.9 3.45 -8.3 .05 -9.7 -3.4 -8.3 -6.9 -6.85 -8.3 -3.45 -9.7 -.05 -8.3 3.4 -6.85 6.9 -3.45 8.3 -.05 9.7 3.4 8.3 6.9 6.85 8.3 3.45 9.7 .05 8.3 -3.4M3.8 -4.4Q4 -4.3 4.15 -4.15 4.2 -3.95 4.15 -3.75 4.05 -3.6 3.9 -3.45 3.7 -3.35 3.5 -3.4 1.95 -3.85 1.25 -2.45 1.2 -2.25 1 -2.25 .75 -2.15 .6 -2.25 .4 -2.3 .35 -2.55 .25 -2.75 .35 -2.95 1.5 -5.05 3.8 -4.4M3.05 .7Q3.25 .6 3.45 .65 3.6 .75 3.7 .9 3.8 1.05 3.75 1.2 3.15 4.15 1.65 4.75 .15 5.4 -2.15 3.65 -2.35 3.6 -2.4 3.4 -2.4 3.2 -2.3 3 -2.25 2.85 -2.1 2.8L3.05 .7M-4.05 -.25Q-4.1 -.05 -4.3 -.05 -4.55 0 -4.7 -.1 -4.9 -.15 -4.95 -.35 -5.05 -.55 -4.95 -.75 -3.8 -2.85 -1.5 -2.2 -1.3 -2.1 -1.15 -1.95 -1.05 -1.75 -1.1 -1.55 -1.2 -1.4 -1.35 -1.25 -1.6 -1.15 -1.8 -1.2 -3.3 -1.7 -4.05 -.25Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.352;.37;.852;.87;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-27" transform="translate(-6.2 -8.35)">
+          <g id="Symbol 58_0.0">
+            <g>
+              <g id="Layer19_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.65 -2.45Q7.6 -6.05 4.4 -7.85 1.2 -9.65 -2.45 -8.65 -6.05 -7.6 -7.85 -4.4 -9.65 -1.2 -8.65 2.45 -7.6 6.05 -4.4 7.85 -1.2 9.65 2.45 8.65 6.05 7.6 7.85 4.4 9.65 1.2 8.65 -2.45M4.3 -3.9Q4.5 -3.8 4.6 -3.6 4.65 -3.4 4.55 -3.25 4.45 -3.05 4.3 -2.95 4.05 -2.85 3.9 -2.95 2.45 -3.65 1.5 -2.3 1.4 -2.1 1.25 -2.15 1 -2.05 .85 -2.15 .65 -2.25 .65 -2.5 .6 -2.7 .7 -2.9 2.05 -4.8 4.3 -3.9M2.95 1Q3.2 1 3.35 1.1 3.5 1.15 3.55 1.35 3.65 1.45 3.6 1.7 2.6 4.5 1.05 4.9 -.5 5.4 -2.55 3.35 -2.75 3.25 -2.8 3.1 -2.75 2.9 -2.65 2.7 -2.55 2.55 -2.4 2.55L2.95 1M-4 -.75Q-4.1 -.6 -4.3 -.55 -4.5 -.55 -4.7 -.65 -4.85 -.75 -4.85 -.95 -4.9 -1.15 -4.8 -1.3 -3.4 -3.3 -1.2 -2.35 -1.05 -2.25 -.9 -2.1 -.85 -1.85 -.95 -1.65 -1.05 -1.5 -1.2 -1.4 -1.45 -1.35 -1.65 -1.45 -3.05 -2.05 -4 -.75Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.333;.352;.833;.852;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-26" transform="translate(-2.95 -8.4)">
+          <g id="Symbol 57_0.0">
+            <g>
+              <g id="Layer18_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.9 -1.2Q8.35 -4.9 5.4 -7.15 2.45 -9.4 -1.2 -8.9 -4.9 -8.35 -7.15 -5.4 -9.4 -2.45 -8.9 1.2 -8.35 4.9 -5.4 7.15 -2.45 9.4 1.2 8.9 4.9 8.35 7.15 5.4 9.4 2.45 8.9 -1.2M1.8 -2.1Q1.7 -1.95 1.55 -1.9 1.3 -1.95 1.1 -2.05 .95 -2.2 1 -2.4 .95 -2.6 1.05 -2.75 2.7 -4.55 4.75 -3.3 4.95 -3.15 5.05 -2.95 5.05 -2.75 4.95 -2.55 4.8 -2.4 4.7 -2.35 4.4 -2.3 4.25 -2.45 2.9 -3.25 1.8 -2.1M2.8 1.4Q3 1.4 3.15 1.55 3.25 1.6 3.35 1.75 3.4 1.95 3.35 2.15 2 4.8 .4 5 -1.25 5.3 -3.05 3 -3.2 2.85 -3.15 2.65 -3.15 2.5 -3.05 2.35 -2.9 2.2 -2.75 2.2L2.8 1.4M-3.85 -1.25Q-3.95 -1.1 -4.15 -1.15 -4.4 -1.15 -4.55 -1.25 -4.7 -1.35 -4.7 -1.6 -4.7 -1.8 -4.55 -1.95 -2.95 -3.7 -.9 -2.5 -.75 -2.35 -.65 -2.15 -.6 -1.95 -.7 -1.8 -.8 -1.65 -1 -1.55 -1.25 -1.5 -1.4 -1.6 -2.75 -2.5 -3.85 -1.25Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.333;.815;.833;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-25" transform="translate(.65 -8.45)">
+          <g id="Symbol 56_0.0">
+            <g>
+              <g id="Layer17_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M6.45 -6.25Q3.9 -8.9 .15 -8.95 -3.6 -9 -6.25 -6.45 -8.9 -3.9 -8.95 -.15 -9 3.6 -6.45 6.25 -3.9 8.9 -.15 8.95 3.6 9 6.25 6.45 8.9 3.9 8.95 .15 9 -3.6 6.45 -6.25M1.35 -2.2Q1.35 -2.4 1.5 -2.55 3.35 -4.05 5.25 -2.45 5.35 -2.35 5.4 -2.15 5.4 -1.95 5.25 -1.8 5.15 -1.65 4.95 -1.6 4.75 -1.6 4.6 -1.75 3.35 -2.75 2.1 -1.75 2 -1.6 1.8 -1.65 1.55 -1.7 1.4 -1.85 1.25 -2 1.35 -2.2M2.55 1.8Q2.75 1.85 2.9 1.95 3 2.1 3.05 2.3 3.05 2.45 2.95 2.65 1.25 5.1 -.35 5 -2 5.05 -3.4 2.45 -3.55 2.35 -3.55 2.15 -3.5 2 -3.35 1.85 -3.2 1.75 -3.05 1.75L2.55 1.8M-3.65 -1.85Q-3.8 -1.7 -3.95 -1.75 -4.15 -1.8 -4.3 -1.95 -4.45 -2.1 -4.35 -2.25 -4.35 -2.55 -4.2 -2.65 -2.35 -4.15 -.5 -2.6 -.35 -2.45 -.3 -2.25 -.3 -2.05 -.45 -1.9 -.6 -1.75 -.75 -1.7 -1 -1.65 -1.15 -1.8 -2.35 -2.85 -3.65 -1.85Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.315;.796;.815;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-24" transform="translate(4.65 -8.5)">
+          <g id="Symbol 55_0.0">
+            <g>
+              <g id="Layer16_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M7.4 -5.05Q5.3 -8.1 1.65 -8.85 -2 -9.5 -5.05 -7.4 -8.1 -5.3 -8.85 -1.65 -9.5 2 -7.4 5.05 -5.3 8.1 -1.65 8.85 2 9.5 5.05 7.4 8.1 5.3 8.85 1.65 9.5 -2 7.4 -5.05M1.7 -1.95Q1.75 -2.15 1.9 -2.25 4.05 -3.4 5.6 -1.6 5.7 -1.4 5.7 -1.2 5.7 -.95 5.5 -.85 5.35 -.75 5.15 -.75 4.9 -.8 4.8 -.95 3.8 -2.15 2.35 -1.4 2.2 -1.3 2.05 -1.35 1.8 -1.4 1.7 -1.6 1.6 -1.75 1.7 -1.95M2.2 2.25Q2.45 2.3 2.55 2.45 2.65 2.55 2.6 2.75 2.6 2.9 2.5 3.1 .35 5.2 -1.2 4.85 -2.85 4.6 -3.8 1.85 -3.9 1.7 -3.85 1.55 -3.75 1.4 -3.6 1.3 -3.45 1.15 -3.3 1.2L2.2 2.25M-3.75 -3.3Q-1.6 -4.5 -.05 -2.6 .05 -2.45 .1 -2.25 .05 -2.05 -.15 -1.9 -.3 -1.8 -.45 -1.8 -.7 -1.8 -.85 -2 -1.85 -3.2 -3.2 -2.4 -3.4 -2.3 -3.55 -2.4 -3.8 -2.45 -3.95 -2.65 -4.05 -2.8 -3.95 -3 -3.9 -3.2 -3.75 -3.3Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.296;.778;.796;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-23" transform="translate(9.05 -8.55)">
+          <g id="Symbol 54_0.0">
+            <g>
+              <g id="Layer15_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.2 -3.65Q6.7 -7.05 3.25 -8.35 -.25 -9.7 -3.65 -8.2 -7.05 -6.7 -8.35 -3.25 -9.7 .25 -8.2 3.65 -6.7 7.05 -3.25 8.35 .25 9.7 3.65 8.2 7.05 6.7 8.35 3.25 9.7 -.25 8.2 -3.65M.5 -2.2Q.45 -2 .25 -1.9 .1 -1.8 -.1 -1.85 -.35 -1.95 -.45 -2.1 -1.25 -3.5 -2.75 -3 -2.9 -2.9 -3.05 -3 -3.3 -3.15 -3.35 -3.3 -3.45 -3.5 -3.3 -3.65 -3.25 -3.9 -3.05 -3.95 -.75 -4.7 .4 -2.6 .5 -2.45 .5 -2.2M2.05 -1.6Q2.1 -1.8 2.3 -1.9 4.6 -2.6 5.8 -.5 5.9 -.35 5.85 -.15 5.75 .1 5.55 .15 5.4 .25 5.25 .2 4.95 .15 4.9 0 4.1 -1.45 2.6 -.9 2.45 -.85 2.25 -.95 2.05 -1.1 1.95 -1.25 1.9 -1.45 2.05 -1.6M-2.1 4.55Q-3.6 4 -4.1 1.15 -4.15 .95 -4.05 .85 -3.95 .65 -3.8 .6 -3.6 .5 -3.45 .55L1.75 2.65Q1.95 2.65 2.05 2.85 2.1 3 2.05 3.2 2 3.35 1.85 3.5 -.6 5.15 -2.1 4.55Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.259;.278;.759;.778;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-22" transform="translate(13.85 -8.6)">
+          <g id="Symbol 53_0.0">
+            <g>
+              <g id="Layer14_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.8 -1.9Q8 -5.5 4.85 -7.55 1.7 -9.6 -1.9 -8.8 -5.5 -8 -7.55 -4.85 -9.6 -1.7 -8.8 1.9 -8 5.5 -4.85 7.55 -1.7 9.6 1.9 8.8 5.5 8 7.55 4.85 9.6 1.7 8.8 -1.9M.3 -1.85Q.05 -1.95 0 -2.15 -.5 -3.65 -2.05 -3.45 -2.25 -3.45 -2.4 -3.55 -2.6 -3.75 -2.65 -3.95 -2.7 -4.15 -2.5 -4.25 -2.4 -4.45 -2.2 -4.5 .15 -4.75 .95 -2.45 .95 -2.25 .9 -2.05 .8 -1.85 .65 -1.8 .45 -1.75 .3 -1.85M2.3 -1.2Q2.45 -1.35 2.65 -1.4 5.05 -1.65 5.75 .65 5.8 .85 5.75 1.05 5.65 1.25 5.45 1.3 5.25 1.3 5.1 1.25 4.85 1.15 4.8 .95 4.3 -.6 2.75 -.4 2.55 -.35 2.4 -.45 2.2 -.65 2.2 -.85 2.15 -1.05 2.3 -1.2M-4.15 -.05Q-4 -.15 -3.8 -.2 -3.6 -.25 -3.5 -.15L1.2 2.95Q1.4 3 1.45 3.2 1.45 3.35 1.4 3.5 1.35 3.7 1.15 3.8 -1.65 4.95 -2.95 4.05 -4.4 3.2 -4.25 .3 -4.25 .1 -4.15 -.05Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.241;.259;.741;.759;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-21" transform="translate(19.05 -8.65)">
+          <g id="Symbol 52_0.0">
+            <g>
+              <g id="Layer13_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M6.35 -6.35Q3.7 -9 0 -9 -3.7 -9 -6.35 -6.35 -9 -3.7 -9 0 -9 3.7 -6.35 6.35 -3.7 9 0 9 3.7 9 6.35 6.35 9 3.7 9 0 9 -3.7 6.35 -6.35M2.3 -.35Q2.3 -.55 2.5 -.65 2.65 -.8 2.85 -.8 5.25 -.55 5.5 1.85 5.5 2.05 5.4 2.25 5.25 2.4 5.05 2.4 4.85 2.4 4.7 2.3 4.5 2.15 4.5 1.95 4.35 .35 2.75 .2 2.55 .2 2.45 .05 2.3 -.15 2.3 -.35M1.45 -2.2Q1.45 -2 1.35 -1.8 1.2 -1.65 1 -1.65 .8 -1.65 .65 -1.75 .45 -1.9 .45 -2.1 .3 -3.7 -1.3 -3.85 -1.5 -3.85 -1.6 -4 -1.75 -4.2 -1.75 -4.4 -1.75 -4.6 -1.55 -4.7 -1.4 -4.85 -1.2 -4.85 1.2 -4.6 1.45 -2.2M-4.2 -.6Q-4.2 -.8 -4.05 -.9 -3.9 -1 -3.7 -1 -3.5 -1 -3.4 -.85L.55 3.1Q.7 3.25 .7 3.45 .7 3.6 .6 3.75 .5 3.9 .3 3.95 -2.65 4.5 -3.75 3.35 -4.95 2.2 -4.2 -.6Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.241;.722;.741;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-20" transform="translate(18.8 -8.65)">
+          <g id="Symbol 51_0.0">
+            <g>
+              <g id="Layer12_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M9 -.1Q8.95 -3.8 6.3 -6.4 3.6 -9.05 -.1 -9 -3.8 -8.95 -6.4 -6.3 -9.05 -3.6 -9 .1 -8.95 3.8 -6.3 6.4 -3.6 9.05 .1 9 3.8 8.95 6.4 6.3 9.05 3.6 9 -.1M2.3 -.35Q2.3 -.55 2.5 -.65 2.65 -.8 2.85 -.85 5.25 -.6 5.5 1.8 5.5 2 5.4 2.2 5.25 2.35 5.05 2.35 4.85 2.35 4.7 2.25 4.5 2.1 4.5 1.9 4.35 .3 2.75 .15 2.55 .2 2.45 .05 2.3 -.15 2.3 -.35M1.45 -2.2Q1.45 -2 1.35 -1.8 1.2 -1.65 1 -1.65 .8 -1.65 .65 -1.75 .45 -1.9 .45 -2.1 .25 -3.7 -1.35 -3.85 -1.55 -3.85 -1.65 -4 -1.8 -4.2 -1.8 -4.4 -1.8 -4.6 -1.6 -4.7 -1.45 -4.85 -1.25 -4.85 1.15 -4.6 1.45 -2.2M-4.2 -.55Q-4.2 -.75 -4.05 -.85 -3.9 -.95 -3.7 -.95 -3.5 -.95 -3.4 -.8L.6 3.1Q.75 3.25 .75 3.45 .75 3.6 .65 3.75 .55 3.9 .35 3.95 -2.6 4.5 -3.7 3.4 -4.95 2.25 -4.2 -.55Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.204;.222;.704;.722;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-19" transform="translate(18 -8.65)">
+          <g id="Symbol 50_0.0">
+            <g>
+              <g id="Layer11_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M9 -.4Q8.85 -4.1 6.05 -6.65 3.3 -9.15 -.4 -9 -4.1 -8.85 -6.65 -6.05 -9.15 -3.3 -9 .4 -8.85 4.1 -6.05 6.65 -3.3 9.15 .4 9 4.1 8.85 6.65 6.05 9.15 3.3 9 -.4M1.35 -2.25Q1.35 -2.05 1.25 -1.85 1.15 -1.7 .95 -1.7 .75 -1.7 .55 -1.8 .35 -1.9 .35 -2.1 .15 -3.7 -1.45 -3.8 -1.65 -3.8 -1.75 -3.95 -1.95 -4.1 -1.95 -4.3 -1.95 -4.5 -1.75 -4.65 -1.6 -4.8 -1.4 -4.8 1 -4.65 1.35 -2.25M2.45 -.05Q2.3 -.25 2.3 -.45 2.3 -.65 2.45 -.75 2.6 -.9 2.8 -.9 5.25 -.8 5.6 1.6 5.6 1.8 5.5 2 5.35 2.15 5.15 2.2 4.95 2.2 4.8 2.1 4.6 1.95 4.6 1.75 4.35 .15 2.75 .1 2.55 .1 2.45 -.05M.75 3.7Q.65 3.9 .45 3.95 -2.45 4.6 -3.6 3.5 -4.85 2.4 -4.25 -.4 -4.25 -.6 -4.1 -.7 -3.95 -.85 -3.75 -.85 -3.55 -.85 -3.45 -.7L.7 3.1Q.85 3.2 .85 3.4 .85 3.55 .75 3.7Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.185;.204;.685;.704;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-18" transform="translate(16.7 -8.6)">
+          <g id="Symbol 49_0.0">
+            <g>
+              <g id="Layer10_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.95 -.85Q8.6 -4.55 5.7 -6.9 2.85 -9.3 -.85 -8.95 -4.55 -8.6 -6.9 -5.7 -9.3 -2.85 -8.95 .85 -8.6 4.55 -5.7 6.9 -2.85 9.3 .85 8.95 4.55 8.6 6.9 5.7 9.3 2.85 8.95 -.85M2.45 -.9Q2.55 -1.05 2.75 -1.05 5.15 -1.05 5.65 1.3 5.65 1.5 5.55 1.75 5.45 1.9 5.25 1.9 5.1 1.95 4.9 1.85 4.7 1.7 4.7 1.5 4.4 -.05 2.75 -.05 2.55 -.05 2.45 -.2 2.3 -.35 2.25 -.55 2.25 -.75 2.45 -.9M.5 -1.8Q.25 -1.95 .25 -2.15 -.05 -3.75 -1.65 -3.7 -1.85 -3.7 -2 -3.85 -2.15 -4.05 -2.15 -4.25 -2.2 -4.45 -2 -4.55 -1.85 -4.7 -1.65 -4.75 .75 -4.7 1.25 -2.35 1.25 -2.15 1.2 -1.95 1.05 -1.75 .85 -1.75 .65 -1.75 .5 -1.8M.85 3.05Q1 3.2 1.05 3.4 1.05 3.55 .95 3.7 .9 3.85 .7 3.9 -2.2 4.75 -3.45 3.7 -4.75 2.7 -4.25 -.2 -4.3 -.4 -4.15 -.5 -4 -.6 -3.8 -.65 -3.6 -.65 -3.5 -.5L.85 3.05Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.185;.667;.685;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-17" transform="translate(14.85 -8.6)">
+          <g id="Symbol 48_0.0">
+            <g>
+              <g id="Layer9_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.85 -1.55Q8.2 -5.2 5.15 -7.35 2.1 -9.5 -1.55 -8.85 -5.2 -8.2 -7.35 -5.15 -9.5 -2.1 -8.85 1.55 -8.2 5.2 -5.15 7.35 -2.1 9.5 1.55 8.85 5.2 8.2 7.35 5.15 9.5 2.1 8.85 -1.55M.35 -1.8Q.1 -1.95 .1 -2.15 -.35 -3.7 -1.95 -3.55 -2.15 -3.55 -2.25 -3.65 -2.45 -3.85 -2.45 -4.05 -2.5 -4.25 -2.35 -4.4 -2.25 -4.5 -2.05 -4.55 .4 -4.75 1.05 -2.4 1.1 -2.2 1.05 -2 .9 -1.8 .7 -1.75 .5 -1.75 .35 -1.8M2.35 -1.1Q2.45 -1.25 2.65 -1.3 5.05 -1.45 5.7 .85 5.75 1.05 5.7 1.25 5.55 1.45 5.35 1.45 5.15 1.5 5.05 1.45 4.8 1.3 4.8 1.1 4.35 -.4 2.75 -.3 2.55 -.25 2.4 -.4 2.2 -.55 2.2 -.75 2.15 -.95 2.35 -1.1M-4.15 -.2Q-4 -.3 -3.8 -.35 -3.6 -.4 -3.5 -.25L1.1 2.95Q1.25 3.1 1.3 3.3 1.35 3.45 1.25 3.6 1.2 3.75 1 3.85 -1.8 4.9 -3.1 3.95 -4.45 3 -4.25 .15 -4.3 -.05 -4.15 -.2Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.167;.648;.667;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-16" transform="translate(12.5 -8.55)">
+          <g id="Symbol 47_0.0">
+            <g>
+              <g id="Layer8_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.65 -2.4Q7.65 -5.95 4.4 -7.8 1.15 -9.65 -2.4 -8.65 -5.95 -7.65 -7.8 -4.4 -9.65 -1.15 -8.65 2.4 -7.65 5.95 -4.4 7.8 -1.15 9.65 2.4 8.65 5.95 7.65 7.8 4.4 9.65 1.15 8.65 -2.4M.8 -2.5Q.85 -2.35 .8 -2.1 .7 -1.9 .5 -1.85 .3 -1.8 .2 -1.85 -.05 -1.95 -.1 -2.1 -.7 -3.65 -2.3 -3.35 -2.5 -3.3 -2.6 -3.4 -2.8 -3.6 -2.9 -3.8 -2.95 -4 -2.75 -4.1 -2.65 -4.3 -2.45 -4.35 -.1 -4.75 .8 -2.5M2.7 -.55Q2.5 -.5 2.35 -.6 2.15 -.75 2.1 -.95 2.05 -1.15 2.25 -1.3 2.35 -1.45 2.55 -1.5 4.9 -1.95 5.8 .35 5.85 .5 5.8 .7 5.7 .9 5.5 .95 5.3 1 5.1 .95 4.95 .85 4.85 .7 4.3 -.8 2.7 -.55M1.4 2.85Q1.5 2.95 1.55 3.1 1.6 3.25 1.6 3.45 1.55 3.6 1.35 3.7 -1.35 5.05 -2.7 4.2 -4.15 3.45 -4.2 .5 -4.25 .35 -4.15 .25 -4 .1 -3.8 .05 -3.6 0 -3.5 .1L1.4 2.85Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.13;.148;.63;.648;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-15" transform="translate(9.65 -8.55)">
+          <g id="Symbol 46_0.0">
+            <g>
+              <g id="Layer7_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.3 -3.45Q6.9 -6.85 3.4 -8.3 -.05 -9.7 -3.45 -8.3 -6.85 -6.9 -8.3 -3.4 -9.7 .05 -8.3 3.45 -6.9 6.85 -3.4 8.3 .05 9.7 3.45 8.3 6.85 6.9 8.3 3.4 9.7 -.05 8.3 -3.45M.5 -2.6Q.6 -2.4 .55 -2.15 .45 -1.95 .25 -1.9 .1 -1.8 -.05 -1.85 -.35 -1.9 -.4 -2.1 -1.1 -3.5 -2.65 -3.05 -2.85 -3 -3.05 -3.1 -3.2 -3.25 -3.3 -3.4 -3.35 -3.6 -3.25 -3.75 -3.15 -3.95 -2.95 -4.05 -.65 -4.7 .5 -2.6M2.65 -.85Q2.45 -.8 2.25 -.9 2.05 -1.05 1.95 -1.2 1.9 -1.4 2.05 -1.55 2.15 -1.75 2.35 -1.85 4.65 -2.5 5.8 -.4 5.9 -.2 5.85 .05 5.75 .2 5.55 .25 5.4 .35 5.25 .3 4.95 .3 4.9 .1 4.15 -1.35 2.65 -.85M1.7 2.65Q1.9 2.75 1.95 2.95 2.05 3.1 2 3.2 1.95 3.4 1.8 3.55 -.75 5.15 -2.15 4.55 -3.7 3.95 -4.15 1.05 -4.2 .85 -4.1 .7 -4 .6 -3.8 .5 -3.65 .45 -3.5 .5L1.7 2.65Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.13;.611;.63;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-14" transform="translate(6.2 -8.5)">
+          <g id="Symbol 45_0.0">
+            <g>
+              <g id="Layer6_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M7.75 -4.55Q5.85 -7.75 2.2 -8.7 -1.35 -9.65 -4.55 -7.75 -7.75 -5.85 -8.7 -2.2 -9.65 1.35 -7.75 4.55 -5.85 7.75 -2.2 8.7 1.35 9.65 4.55 7.75 7.75 5.85 8.7 2.2 9.65 -1.35 7.75 -4.55M.25 -2.25Q.2 -2 0 -1.9 -.15 -1.8 -.35 -1.85 -.55 -1.9 -.65 -2.05 -1.65 -3.35 -3.05 -2.65 -3.25 -2.55 -3.45 -2.65 -3.65 -2.7 -3.75 -2.9 -3.85 -3.05 -3.75 -3.25 -3.65 -3.45 -3.5 -3.55 -1.3 -4.55 .15 -2.65 .25 -2.45 .25 -2.25M1.8 -1.8Q1.9 -2.05 2.05 -2.15 4.2 -3.1 5.7 -1.2 5.8 -1.05 5.8 -.8 5.7 -.6 5.55 -.5 5.35 -.4 5.2 -.4 4.95 -.45 4.85 -.6 3.95 -1.9 2.45 -1.25 2.3 -1.15 2.15 -1.2 1.9 -1.3 1.8 -1.45 1.7 -1.6 1.8 -1.8M-1.5 4.8Q-3.15 4.4 -3.9 1.65 -4 1.45 -3.95 1.3 -3.85 1.15 -3.7 1.05 -3.5 .95 -3.35 1L2 2.35Q2.25 2.45 2.35 2.6 2.45 2.75 2.4 2.9 2.45 3.1 2.25 3.25 0 5.2 -1.5 4.8Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.093;.111;.593;.611;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-13" transform="translate(2.3 -8.45)">
+          <g id="Symbol 44_0.0">
+            <g>
+              <g id="Layer5_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M6.9 -5.8Q4.5 -8.65 .75 -8.95 -2.95 -9.3 -5.8 -6.9 -8.65 -4.5 -8.95 -.75 -9.3 2.95 -6.9 5.8 -4.5 8.65 -.75 8.95 2.95 9.3 5.8 6.9 8.65 4.5 8.95 .75 9.3 -2.95 6.9 -5.8M1.5 -2.1Q1.5 -2.3 1.7 -2.45 3.65 -3.75 5.4 -2.15 5.5 -2 5.6 -1.75 5.55 -1.5 5.4 -1.4 5.25 -1.25 5.1 -1.25 4.85 -1.25 4.7 -1.4 3.5 -2.55 2.25 -1.6 2.1 -1.5 1.9 -1.5 1.65 -1.6 1.55 -1.75 1.4 -1.9 1.5 -2.1M2.4 2Q2.65 2.05 2.75 2.2 2.85 2.3 2.85 2.45 2.9 2.7 2.8 2.8 .9 5.15 -.7 4.95 -2.4 4.9 -3.6 2.25 -3.7 2.1 -3.7 1.9 -3.65 1.75 -3.5 1.65 -3.3 1.5 -3.15 1.55L2.4 2M-3.45 -2.1Q-3.6 -2 -3.75 -2 -4.05 -2.1 -4.2 -2.25 -4.3 -2.4 -4.2 -2.6 -4.15 -2.8 -4 -2.95 -2.05 -4.25 -.3 -2.65 -.2 -2.5 -.1 -2.25 -.15 -2 -.3 -1.9 -.45 -1.75 -.6 -1.75 -.85 -1.75 -1 -1.9 -2.15 -3.05 -3.45 -2.1Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.074;.093;.574;.593;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-12" transform="translate(-2.1 -8.4)">
+          <g id="Symbol 43_0.0">
+            <g>
+              <g id="Layer4_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.9 -.9Q8.55 -4.6 5.7 -6.95 2.85 -9.3 -.9 -8.9 -4.6 -8.55 -6.95 -5.7 -9.3 -2.85 -8.9 .9 -8.55 4.6 -5.7 6.95 -2.85 9.3 .9 8.9 4.6 8.55 6.95 5.7 9.3 2.85 8.9 -.9M1.2 -2.7Q2.9 -4.4 4.95 -3.1 5.1 -2.95 5.15 -2.75 5.15 -2.55 5.05 -2.4 4.9 -2.25 4.8 -2.2 4.5 -2.1 4.35 -2.2 3 -3.15 1.9 -1.95 1.75 -1.8 1.6 -1.85 1.35 -1.9 1.2 -2 1.05 -2.15 1.1 -2.35 1.1 -2.55 1.2 -2.7M2.75 1.55Q2.95 1.5 3.1 1.65 3.25 1.75 3.3 1.9 3.3 2.05 3.25 2.25 1.75 4.9 .25 5 -1.45 5.2 -3.1 2.85 -3.25 2.75 -3.25 2.6 -3.2 2.35 -3.1 2.2 -2.95 2.05 -2.8 2.05L2.75 1.55M-3.75 -1.45Q-3.9 -1.3 -4.1 -1.3 -4.35 -1.3 -4.5 -1.45 -4.65 -1.55 -4.65 -1.8 -4.65 -1.95 -4.5 -2.1 -2.8 -3.85 -.8 -2.5 -.65 -2.35 -.55 -2.2 -.5 -2 -.6 -1.8 -.75 -1.65 -.95 -1.6 -1.15 -1.55 -1.3 -1.7 -2.65 -2.6 -3.75 -1.45Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.074;.556;.574;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-11" transform="translate(-7.05 -8.35)">
+          <g id="Symbol 42_0.0">
+            <g>
+              <g id="Layer3_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M8.55 -2.65Q7.45 -6.25 4.15 -7.95 .85 -9.65 -2.65 -8.55 -6.25 -7.45 -7.95 -4.15 -9.65 -.85 -8.55 2.65 -7.45 6.25 -4.15 7.95 -.85 9.65 2.65 8.55 6.25 7.45 7.95 4.15 9.65 .85 8.55 -2.65M4.2 -4Q4.35 -3.9 4.5 -3.75 4.55 -3.55 4.5 -3.35 4.4 -3.2 4.2 -3.1 4 -3 3.85 -3.1 2.3 -3.7 1.45 -2.35 1.4 -2.15 1.2 -2.15 .9 -2.1 .75 -2.2 .55 -2.3 .55 -2.5 .5 -2.7 .6 -2.85 1.9 -4.9 4.2 -4M3 .95Q3.2 .9 3.35 1 3.5 1.05 3.6 1.2 3.7 1.35 3.65 1.55 2.8 4.45 1.2 4.85 -.35 5.4 -2.5 3.4 -2.65 3.35 -2.65 3.2 -2.7 3 -2.6 2.85 -2.5 2.65 -2.3 2.6L3 .95M-4 -.65Q-4.1 -.45 -4.3 -.45 -4.5 -.4 -4.7 -.5 -4.85 -.55 -4.85 -.8 -4.95 -1 -4.85 -1.2 -3.5 -3.15 -1.3 -2.3 -1.1 -2.2 -1 -2.05 -.9 -1.8 -1 -1.65 -1.1 -1.45 -1.25 -1.4 -1.5 -1.3 -1.65 -1.35 -3.15 -1.95 -4 -.65Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.037;.056;.537;.556;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="Symbol-10" transform="translate(-12.55 -8.25)">
+          <g id="Symbol 41_0.0">
+            <g>
+              <g id="Layer2_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M7.7 -4.6Q5.8 -7.8 2.2 -8.7 -1.4 -9.6 -4.6 -7.7 -7.8 -5.8 -8.7 -2.2 -9.6 1.4 -7.7 4.6 -5.8 7.8 -2.2 8.7 1.4 9.6 4.6 7.7 7.8 5.8 8.7 2.2 9.6 -1.4 7.7 -4.6M3.15 -4.9Q3.35 -4.85 3.55 -4.7 3.6 -4.5 3.55 -4.3 3.5 -4.1 3.4 -4 3.2 -3.8 3 -3.85 1.4 -4.1 .9 -2.6 .85 -2.4 .65 -2.35 .4 -2.3 .2 -2.35 0 -2.4 -.05 -2.55 -.1 -2.75 -.05 -2.95 .75 -5.25 3.15 -4.9M-1.8 -1.95Q-1.6 -1.9 -1.4 -1.75 -1.3 -1.55 -1.35 -1.35 -1.4 -1.15 -1.55 -1.1 -1.75 -.9 -1.95 -.95 -3.55 -1.2 -4.05 .3 -4.1 .5 -4.25 .55 -4.5 .65 -4.7 .6 -4.9 .55 -4.95 .35 -5.05 .15 -5 -.05 -4.15 -2.3 -1.8 -1.95M-1.65 3.9Q-1.8 3.85 -1.85 3.7 -1.9 3.55 -1.85 3.35 -1.8 3.15 -1.65 3.1L3.15 .2Q3.3 .1 3.5 .15 3.65 .2 3.8 .35 3.9 .45 3.85 .65 3.7 3.65 2.3 4.5 .95 5.35 -1.65 3.9Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.037;.519;.537;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g>
+        <g id="Symbol-9" transform="translate(-18.55 -8.2)">
+          <g id="Symbol 40_0.0">
+            <g>
+              <g id="Layer1_0_FILL">
+                <path fill="#AAB9DE" stroke="none" d="M6.35 -6.35Q3.7 -9 0 -9 -3.7 -9 -6.35 -6.35 -9 -3.7 -9 0 -9 3.7 -6.35 6.35 -3.7 9 0 9 3.7 9 6.35 6.35 9 3.7 9 0 9 -3.7 6.35 -6.35M1.85 -5.5Q2.05 -5.5 2.25 -5.4 2.4 -5.25 2.4 -5.05 2.4 -4.85 2.3 -4.7 2.15 -4.5 1.95 -4.5 .35 -4.35 .2 -2.75 .2 -2.55 .05 -2.45 -.15 -2.3 -.35 -2.3 -.55 -2.3 -.65 -2.5 -.8 -2.65 -.8 -2.85 -.55 -5.25 1.85 -5.5M3.1 -.55Q3.25 -.7 3.45 -.7 3.6 -.7 3.75 -.6 3.9 -.5 3.95 -.3 4.5 2.65 3.35 3.75 2.2 4.95 -.6 4.2 -.8 4.2 -.9 4.05 -1 3.9 -1 3.7 -1 3.5 -.85 3.4L3.1 -.55M-2.2 -1.45Q-2 -1.45 -1.8 -1.35 -1.65 -1.2 -1.65 -1 -1.65 -.8 -1.75 -.65 -1.9 -.45 -2.1 -.45 -3.7 -.3 -3.85 1.3 -3.85 1.5 -4 1.6 -4.2 1.75 -4.4 1.75 -4.6 1.75 -4.7 1.55 -4.85 1.4 -4.85 1.2 -4.6 -1.2 -2.2 -1.45Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.5;.519;1" values="inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f12o12" transform="matrix(.467 -.883 .883 .467 -9.5 -9.15)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.481;.5;.981;1" values="none;inline;none;inline;inline"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f13o13" transform="matrix(.473 -.878 .878 .473 -9.25 -9.2)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.463;.481;.963;.981;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f12o12" transform="matrix(.496 -.865 .865 .496 -8.7 -9.45)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.444;.463;.944;.963;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f11o11" transform="matrix(.534 -.843 .843 .534 -7.85 -9.8)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.426;.444;.926;.944;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f10o10" transform="matrix(.587 -.806 .806 .587 -6.5 -10.3)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.407;.426;.907;.926;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f9o9" transform="matrix(.649 -.757 .757 .649 -4.8 -10.75)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.389;.407;.889;.907;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f8o8" transform="matrix(.719 -.691 .691 .719 -2.65 -11.25)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.37;.389;.87;.889;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f7o7" transform="matrix(.795 -.602 .602 .795 0 -11.65)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.352;.37;.852;.87;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f6o6" transform="matrix(.868 -.492 .492 .868 3 -11.85)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.333;.352;.833;.852;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f5o5" transform="matrix(.933 -.354 .354 .933 6.6 -11.75)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.333;.815;.833;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f4o4" transform="matrix(.98 -.191 .191 .98 10.55 -11.1)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.315;.796;.815;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f3o3" transform="matrix(1 -.009 .009 1 14.75 -9.85)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.296;.778;.796;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f2o2" transform="matrix(.98 .191 -.191 .98 19.05 -7.8)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.259;.278;.759;.778;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f1o1" transform="matrix(.913 .403 -.403 .913 23.3 -5.05)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.241;.259;.741;.759;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f0" transform="matrix(.791 .61 -.61 .791 27.25 -1.45)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.241;.722;.741;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f23o23" transform="matrix(.798 .598 -.598 .798 26.95 -1.6)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.204;.222;.704;.722;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f22o22" transform="matrix(.818 .57 -.57 .818 26.45 -2.2)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.185;.204;.685;.704;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f21o21" transform="matrix(.852 .519 -.519 .852 25.45 -3.15)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.185;.667;.685;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f20o20" transform="matrix(.892 .446 -.446 .892 24.05 -4.35)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.167;.648;.667;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f19o19" transform="matrix(.936 .346 -.346 .936 22.1 -5.9)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.13;.148;.63;.648;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f18o18" transform="matrix(.974 .217 -.217 .974 19.55 -7.55)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.13;.611;.63;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f17o17" transform="matrix(.997 .062 -.062 .997 16.25 -9.15)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.093;.111;.593;.611;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f16o16" transform="matrix(.992 -.114 .114 .992 12.3 -10.55)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.074;.093;.574;.593;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f15o15" transform="matrix(.947 -.314 .314 .947 7.55 -11.5)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.074;.556;.574;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f14o14" transform="matrix(.85 -.522 .522 .85 2.15 -11.75)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.037;.056;.537;.556;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f13o13" transform="matrix(.691 -.719 .719 .691 -3.6 -10.95)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.037;.519;.537;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g>
+        <use xlink:href="#arm3f12o12" transform="matrix(.467 -.883 .883 .467 -9.5 -9.15)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.5;.519;1" values="inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f0" transform="matrix(-.86 .507 .499 .865 -27.75 -2.7)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.481;.5;.981;1" values="none;inline;none;inline;inline"/>
+      </g>
+      <g display="none">
+        <g id="arm3f25o25" transform="matrix(-.863 .5 .492 .868 -27.5 -2.7)">
+          <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+          <use xlink:href="#arm2" transform="matrix(.809 .585 -.585 .809 12 -6.45)"/>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.463;.481;.963;.981;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <g id="arm3f24o24" transform="matrix(-.876 .477 .47 .88 -27.05 -3.05)">
+          <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+          <use xlink:href="#arm2" transform="matrix(.827 .559 -.559 .827 11.75 -6.65)"/>
+        </g>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.444;.463;.944;.963;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f23o23" transform="matrix(-.894 .442 .434 .898 -26.35 -3.6)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.426;.444;.926;.944;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f22o22" transform="matrix(-.918 .391 .383 .921 -25.35 -4.3)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.407;.426;.907;.926;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f21o21" transform="matrix(-.943 .325 .314 .947 -23.95 -5.15)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.389;.407;.889;.907;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f20o20" transform="matrix(-.969 .238 .23 .971 -22.2 -6.05)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.37;.389;.87;.889;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f19o19" transform="matrix(-.988 .139 .127 .99 -20 -7)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.352;.37;.852;.87;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f18o18" transform="matrix(-.998 .018 .009 1 -17.4 -7.95)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.333;.352;.833;.852;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f17o17" transform="matrix(-.992 -.114 -.123 .991 -14.35 -8.7)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.333;.815;.833;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f16o16" transform="matrix(-.962 -.263 -.272 .96 -10.75 -9.25)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.315;.796;.815;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f15o15" transform="matrix(-.904 -.422 -.43 .9 -6.7 -9.4)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.296;.778;.796;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f14o14" transform="matrix(-.811 -.58 -.588 .806 -2.4 -9)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.259;.278;.759;.778;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f13o13" transform="matrix(-.678 -.731 -.737 .672 2.1 -7.95)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.241;.259;.741;.759;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f12o12" transform="matrix(-.507 -.86 -.865 .499 6.85 -6.25)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.241;.722;.741;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f11o11" transform="matrix(-.515 -.854 -.859 .507 6.6 -6.4)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.204;.222;.704;.722;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f10o10" transform="matrix(-.544 -.836 -.843 .534 5.9 -6.7)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.185;.204;.685;.704;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f9o9" transform="matrix(-.587 -.806 -.811 .58 4.75 -7.2)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.185;.667;.685;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f8o8" transform="matrix(-.649 -.757 -.765 .639 3.05 -7.8)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.167;.648;.667;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f7o7" transform="matrix(-.719 -.691 -.697 .713 .8 -8.5)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.13;.148;.63;.648;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f6o6" transform="matrix(-.798 -.598 -.608 .79 -1.9 -9.05)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.13;.611;.63;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f5o5" transform="matrix(-.874 -.481 -.489 .87 -5.25 -9.5)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.093;.111;.593;.611;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f4o4" transform="matrix(-.941 -.33 -.342 .938 -9.15 -9.55)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.074;.093;.574;.593;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f3o3" transform="matrix(-.986 -.152 -.161 .985 -13.55 -9.05)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.074;.556;.574;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f2o2" transform="matrix(-.997 .052 .04 .998 -18.25 -7.85)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.037;.056;.537;.556;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g display="none">
+        <use xlink:href="#arm3f1o1" transform="matrix(-.959 .276 .267 .962 -23.1 -5.75)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.037;.519;.537;1" values="none;inline;none;inline;none;none"/>
+      </g>
+      <g>
+        <use xlink:href="#arm3f0" transform="matrix(-.86 .507 .499 .865 -27.75 -2.7)"/>
+        <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.5;.519;1" values="inline;none;inline;none;none"/>
+      </g>
+    </g>
+    <g id="arm3f0" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.791 .612 -.612 .791 12.25 -6.5)"/>
+    </g>
+    <g id="arm3f1o1" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.812 .581 -.581 .812 12 -6.6)"/>
+    </g>
+    <g id="arm3f2o2" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.834 .549 -.549 .834 11.7 -6.85)"/>
+    </g>
+    <g id="arm3f3o3" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.853 .519 -.519 .853 11.4 -7)"/>
+    </g>
+    <g id="arm3f4o4" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.873 .485 -.485 .873 11.1 -7.2)"/>
+    </g>
+    <g id="arm3f5o5" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.891 .451 -.451 .891 10.75 -7.3)"/>
+    </g>
+    <g id="arm3f6o6" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.907 .419 -.419 .907 10.5 -7.4)"/>
+    </g>
+    <g id="arm3f7o7" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.922 .383 -.383 .922 10.1 -7.6)"/>
+    </g>
+    <g id="arm3f8o8" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.937 .347 -.347 .937 9.75 -7.75)"/>
+    </g>
+    <g id="arm3f9o9" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.949 .313 -.313 .949 9.45 -7.85)"/>
+    </g>
+    <g id="arm3f10o10" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.96 .276 -.276 .96 9.05 -7.9)"/>
+    </g>
+    <g id="arm3f11o11" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.97 .239 -.239 .97 8.7 -8)"/>
+    </g>
+    <g id="arm3f12o12" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.979 .205 -.205 .979 8.3 -7.95)"/>
+    </g>
+    <g id="arm3f13o13" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.971 .234 -.234 .971 8.65 -7.8)"/>
+    </g>
+    <g id="arm3f14o14" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.963 .267 -.267 .963 8.9 -7.75)"/>
+    </g>
+    <g id="arm3f15o15" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.954 .297 -.297 .954 9.25 -7.65)"/>
+    </g>
+    <g id="arm3f16o16" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.944 .326 -.326 .944 9.55 -7.6)"/>
+    </g>
+    <g id="arm3f17o17" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.932 .359 -.359 .932 9.85 -7.5)"/>
+    </g>
+    <g id="arm3f18o18" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.921 .387 -.387 .921 10.15 -7.4)"/>
+    </g>
+    <g id="arm3f19o19" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.907 .419 -.419 .907 10.4 -7.25)"/>
+    </g>
+    <g id="arm3f20o20" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.893 .447 -.447 .893 10.65 -7.2)"/>
+    </g>
+    <g id="arm3f21o21" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.879 .474 -.474 .879 11 -7)"/>
+    </g>
+    <g id="arm3f22o22" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.862 .504 -.504 .862 11.2 -6.9)"/>
+    </g>
+    <g id="arm3f23o23" overflow="visible">
+      <use xlink:href="#arm3" transform="matrix(.977 .211 -.211 .977 0 7.95)"/>
+      <use xlink:href="#arm2" transform="matrix(.846 .531 -.531 .846 11.5 -6.75)"/>
+    </g>
+    <g id="arm2" overflow="visible">
+      <g id="arm2_0.0">
+        <g>
+          <g id="Layer58_0_FILL">
+            <path fill="#AAB9DE" stroke="none" d="M3.25 -9.75Q3.2 -11.05 2.3 -12.05 1.4 -13 .2 -13L.15 -12.95Q-1.2 -12.95 -2.15 -12.05 -3.1 -11.15 -3.2 -9.75L-3.7 8.5Q-3.75 10.25 -2.7 11.7 -1.55 13.05 -.05 12.95L0 13Q1.55 12.95 2.65 11.6 3.7 10.35 3.7 8.5L3.25 -9.75Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="arm3" overflow="visible">
+      <g id="arm1_0.0">
+        <g>
+          <g id="Layer59_0_FILL">
+            <path fill="#AAB9DE" stroke="none" d="M6.5 -11.2Q5.15 -12 3.6 -11.65 2.1 -11.2 1.3 -9.85L-7.9 6.05Q-8.65 7.4 -8.25 8.95 -7.8 10.5 -6.5 11.25L-6.45 11.3Q-5.1 12 -3.55 11.6 -2.05 11.2 -1.3 9.85L7.9 -6.05Q8.65 -7.4 8.25 -8.95 7.9 -10.45 6.55 -11.2L6.5 -11.2Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Symbol-66" overflow="visible">
+      <g id="Symbol 5_0.0">
+        <g>
+          <g id="Layer60_0_FILL">
+            <path fill="#F90" stroke="none" d="M0 1.15L1.15 0 0 -1.15 -1.15 0 0 1.15Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Symbol-67" overflow="visible">
+      <g id="Symbol 4_0.0">
+        <g>
+          <g id="Layer61_0_FILL">
+            <path fill="#F90" stroke="none" d="M0 2.6L2.6 0 0 -2.6 -2.6 0 0 2.6Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="-2.350" y1="-5.274" x2="2.45" y2="12.675" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="-2.262" y1="-5.274" x2="2.462" y2="12.675" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_3" gradientUnits="userSpaceOnUse" x1="-2.187" y1="-5.3" x2="2.387" y2="12.7" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_4" gradientUnits="userSpaceOnUse" x1="-2.012" y1="-5.325" x2="2.312" y2="12.725" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_5" gradientUnits="userSpaceOnUse" x1="-1.912" y1="-5.312" x2="2.112" y2="12.812" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_6" gradientUnits="userSpaceOnUse" x1="-1.625" y1="-5.362" x2="1.925" y2="12.862" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_7" gradientUnits="userSpaceOnUse" x1="-1.35" y1="-5.412" x2="1.65" y2="12.912" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_8" gradientUnits="userSpaceOnUse" x1="-.975" y1="-5.412" x2="1.375" y2="13.012" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_9" gradientUnits="userSpaceOnUse" x1="-.562" y1="-5.45" x2="1.062" y2="13.05" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_10" gradientUnits="userSpaceOnUse" x1="-.087" y1="-5.475" x2=".687" y2="13.075" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_11" gradientUnits="userSpaceOnUse" x1=".487" y1="-5.437" x2=".412" y2="13.137" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_12" gradientUnits="userSpaceOnUse" x1="1.112" y1="-5.475" x2="-.012" y2="13.075" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_13" gradientUnits="userSpaceOnUse" x1="1.775" y1="-5.412" x2="-.475" y2="13.012" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_14" gradientUnits="userSpaceOnUse" x1="2.487" y1="-5.375" x2="-.987" y2="12.875" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_15" gradientUnits="userSpaceOnUse" x1="3.2" y1="-5.274" x2="-1.600" y2="12.675" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_16" gradientUnits="userSpaceOnUse" x1="3.162" y1="-5.274" x2="-1.562" y2="12.675" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_17" gradientUnits="userSpaceOnUse" x1="3.05" y1="-5.3" x2="-1.45" y2="12.7" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_18" gradientUnits="userSpaceOnUse" x1="2.837" y1="-5.300" x2="-1.337" y2="12.8" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_19" gradientUnits="userSpaceOnUse" x1="2.6" y1="-5.35" x2="-1.1" y2="12.85" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_20" gradientUnits="userSpaceOnUse" x1="2.275" y1="-5.4" x2="-.875" y2="12.9" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_21" gradientUnits="userSpaceOnUse" x1="1.875" y1="-5.412" x2="-.475" y2="13.012" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_22" gradientUnits="userSpaceOnUse" x1="1.362" y1="-5.45" x2="-.162" y2="13.05" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_23" gradientUnits="userSpaceOnUse" x1=".687" y1="-5.437" x2=".212" y2="13.137" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_24" gradientUnits="userSpaceOnUse" x1=".062" y1="-5.487" x2=".637" y2="13.087" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_25" gradientUnits="userSpaceOnUse" x1="-.675" y1="-5.437" x2="1.175" y2="13.037" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradient_26" gradientUnits="userSpaceOnUse" x1="-1.462" y1="-5.387" x2="1.762" y2="12.887" spreadMethod="pad">
+      <stop offset="0%" stop-color="#AAB9DE"/>
+      <stop offset="100%" stop-color="#AAB9DE" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Scene-1" overflow="visible">
+    <g id="Symbol-8" transform="translate(177.5 35.85)">
+      <g id="Symbol-65" transform="translate(-82.75 -1.85)">
+        <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.315;1" values="-82.8,-1.9;-102.79,2.22;-82.8,-1.9;-82.8,-1.9" keySplines=".25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <animateTransform attributeName="transform" additive="sum" type="scale" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.315;1" values="1,1;1.4,1.4;1,1;1,1" keySplines=".25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <animateTransform attributeName="transform" additive="sum" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.315;1" values=".05,.05;.1,-.05;.05,.05;.05,.05" keySplines=".25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <g id="Symbol 9_0.0">
+          <g>
+            <g id="Layer57_0_FILL">
+              <path fill="#F36" stroke="none" d="M-11.65 -3.95Q-11.4 -3.6 -11.4 -2.9 -11.4 -.85 -12.55 1.2 -12.15 1.6 -11.2 1.6 -9 1.6 -7.7 .35 -6.4 -.9 -6.4 -2.9 -6.4 -4.85 -7.4 -5.8 -7.9 -6.3 -8.65 -6.5 -9.35 -6.75 -10.25 -6.75 -13.8 -6.75 -15.35 -3.55L-14.8 -6.75 -20.05 -6.1 -23.3 10.85 -16.7 10.2 -15.05 .05Q-14.8 -1.65 -13.95 -3 -13.15 -4.3 -12.4 -4.3 -11.9 -4.3 -11.65 -3.95Z"/>
+              <path fill="#FC3" stroke="none" d="M-22.65 -7.85Q-21.7 -8.95 -21.7 -10.9L-36 -10.9 -40.05 10.2 -33.1 10.2 -31.25 .65Q-31.1 .7 -30.9 .8 -29.35 1.4 -27.7 1.4 -26.95 1.4 -26.35 1.15 -25.75 .85 -25.35 .35 -24.9 -.2 -24.7 -.9 -24.45 -1.6 -24.45 -2.45L-30.65 -2.45 -29.6 -7.65Q-27.75 -6.75 -25.15 -6.75 -23.55 -6.75 -22.65 -7.85Z"/>
+              <path fill="#3C9" stroke="none" d="M22.6 -6Q21.05 -5.25 20.25 -3.55L20.75 -6.75 15.55 -6.1 12.2 10.85 18.5 10.2 20.45 .1Q20.9 -2.1 21.7 -3.2 22.5 -4.3 23.25 -4.3 23.8 -4.3 24.05 -3.9 24.35 -3.55 24.35 -2.85L21.8 10.85 28.05 10.2 30 .1Q30.35 -2.1 31.15 -3.2 31.9 -4.3 32.7 -4.3 33.9 -4.3 33.9 -2.65 33.9 -1.9 33.5 .4L32.7 4Q32.15 6.5 32.15 7.85 32.15 10.85 36.05 10.85 37.5 10.85 38.6 10.2 39.7 9.55 40 8.45 39.35 8.4 38.95 7.95 38.5 7.5 38.5 6.75 38.5 6 38.95 3.95 39.8 -.25 39.8 -2.25 39.8 -4.3 38.95 -5.4 38.45 -6 37.6 -6.4 36.75 -6.75 35.05 -6.75 33.3 -6.75 31.9 -6.1 30.55 -5.45 30 -4.35 29.7 -5.4 28.8 -6.1 27.9 -6.75 26.55 -6.75 25.35 -6.75 24.35 -6.55 23.35 -6.4 22.6 -6Z"/>
+              <path fill="#FFF" stroke="none" d="M9.35 -5.15Q7.6 -6.75 4.15 -6.75 -.6 -6.75 -3.35 -3.55 -4.65 -2 -5.3 -.05 -5.95 1.85 -5.95 4.2 -5.95 10.85 1.05 10.85 3.4 10.85 5.2 10.1 7 9.35 8.35 7.9 11.1 4.9 11.1 -.2 11.1 -1.9 10.7 -3.1 10.25 -4.35 9.35 -5.15M1.9 -3.1Q2.3 -3.95 2.75 -4.4 3.25 -4.85 3.95 -4.85 4.7 -4.85 4.95 -4.25 5.2 -3.7 5.2 -2.8L5.15 -.75Q5.1 .45 4.6 3.15 4.1 5.9 3.45 7.4 3.1 8.2 2.65 8.6 2.15 8.9 1.45 8.9 .7 8.9 .4 8.35 .15 7.85 .15 7 .15 4.45 .5 2.4L1.2 -.9Q1.5 -2.2 1.9 -3.1Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Symbol-64" transform="translate(-9.7 -2.85)">
+        <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.31499;.481;.648;1" values="-9.7,-2.85;-9.7,-2.85;-9.74,-2.89;-9.7,-2.85;-9.7,-2.85" keySplines=".1 .1 .9 .9;.25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <animateTransform attributeName="transform" additive="sum" type="scale" repeatCount="indefinite" dur="2.25s" keyTimes="0;.31499;.481;.648;1" values="1,1;1,1;1.4,1.4;1,1;1,1" keySplines=".1 .1 .9 .9;.25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <animateTransform attributeName="transform" additive="sum" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.31499;.481;.648;1" values="0,0;0,0;.1,.1;0,0;0,0" keySplines=".1 .1 .9 .9;.25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <g id="Symbol 10_0.0">
+          <g>
+            <g id="Layer56_0_FILL">
+              <path fill="#FFF" stroke="none" d="M-23.3 -3.65L-21.4 -3.65 -23.1 4.95Q-23.55 7.15 -23.55 8 -23.55 8.9 -23.3 9.6 -23.1 10.3 -22.6 10.8 -21.7 11.85 -20.05 11.85 -18.45 11.85 -17.25 11.2 -16.1 10.55 -15.8 9.45 -16.45 9.3 -16.8 8.85 -17.15 8.4 -17.15 7.6 -17.15 6.95 -16.7 4.95L-15.1 -3.65 -12.65 -3.65 -12.35 -5.1 -14.85 -5.1 -14.05 -8.6 -15.6 -8.6Q-17.45 -7.2 -19.35 -6.2 -21.25 -5.2 -23.15 -4.65L-23.3 -3.65Z"/>
+              <path fill="#F36" stroke="none" d="M13.5 -4.95Q11.55 -4.15 10.15 -2.6 7.55 .35 7.55 5.2 7.55 6.75 7.95 7.95 8.4 9.15 9.2 10 10.1 10.9 11.4 11.35 12.7 11.85 14.9 11.85 17.1 11.85 19.15 10.8 20.15 10.3 20.75 9.5 21.35 8.75 21.35 7.55 21.35 6.35 20.55 5.8 20 6.7 18.7 7.25 17.45 7.8 16.2 7.8 15 7.8 14.35 7.25 13.7 6.7 13.7 5.2L13.8 3.7Q18.65 3.7 21.1 2.3 23.55 .85 23.55 -1.95 23.55 -2.75 23.25 -3.35 22.95 -4 22.4 -4.5 21.65 -5.1 20.5 -5.45 19.4 -5.75 17.85 -5.75 15.45 -5.75 13.5 -4.95M15.9 -3Q16.35 -3.7 16.85 -3.9 17.3 -4.15 17.85 -4.15 18.4 -4.15 18.65 -3.7 18.95 -3.35 18.95 -2.6 18.95 -.45 17.6 .9 16.95 1.6 16.05 1.95 15.15 2.3 14 2.3 14.7 -1.4 15.9 -3Z"/>
+              <path fill="#36C" stroke="none" d="M4.95 -3.45Q4.3 -5.75 .8 -5.75 -2.5 -5.75 -4.3 -3.95 -3.5 -5.65 -2.6 -10.55L-2.35 -11.85 -8.8 -11.2 -13.3 11.85 -6.9 11.2 -4.7 .3Q-4.45 -.75 -4.15 -1.45 -3.75 -2.4 -3.25 -2.85 -2.75 -3.3 -2.1 -3.3 -1.6 -3.3 -1.35 -2.85 -1.1 -2.4 -1.1 -1.5 -1.1 -.5 -1.65 2.3L-2.1 4.75Q-2.6 7.3 -2.6 8.25 -2.6 9.8 -2.05 10.6 -1.7 11.15 -1.05 11.5 -.4 11.85 .9 11.85 2.15 11.85 3.3 11.3 4.7 10.65 5.05 9.45 3.6 9.05 3.6 7.65L5.1 -.95 5.15 -2.1Q5.15 -2.7 4.95 -3.45Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Symbol-63" transform="translate(71.2 0)">
+        <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.64799;.815;.981;1" values="71.2,0;71.2,0;95.19,0;71.2,0;71.2,0" keySplines=".1 .1 .9 .9;.25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <animateTransform attributeName="transform" additive="sum" type="scale" repeatCount="indefinite" dur="2.25s" keyTimes="0;.64799;.815;.981;1" values="1,1;1,1;1.4,1.4;1,1;1,1" keySplines=".1 .1 .9 .9;.25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <animateTransform attributeName="transform" additive="sum" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.64799;.815;.981;1" values="0,0;0,0;-.1,0;0,0;0,0" keySplines=".1 .1 .9 .9;.25 .5 .5 1;.25 .5 .5 1;.1 .1 .9 .9" calcMode="spline"/>
+        <g id="Symbol 11_0.0">
+          <g>
+            <g id="Layer55_0_FILL">
+              <path fill="#3C9" stroke="none" d="M-24.25 -7.8Q-26.2 -7 -27.6 -5.45 -30.2 -2.5 -30.2 2.35 -30.2 3.9 -29.8 5.1 -29.35 6.3 -28.55 7.15 -27.65 8.05 -26.35 8.5 -25.05 9 -22.85 9 -20.65 9 -18.6 7.95 -17.6 7.45 -17 6.65 -16.4 5.9 -16.4 4.7 -16.4 3.5 -17.2 2.95 -17.75 3.85 -19.05 4.4 -20.3 4.95 -21.55 4.95 -22.75 4.95 -23.4 4.4 -24.05 3.85 -24.05 2.35L-23.95 .85Q-19.1 .85 -16.65 -.55 -14.2 -2 -14.2 -4.8 -14.2 -5.6 -14.5 -6.2 -14.8 -6.85 -15.35 -7.35 -16.1 -7.95 -17.25 -8.3 -18.35 -8.6 -19.9 -8.6 -22.3 -8.6 -24.25 -7.8M-23.75 -.55Q-23.05 -4.25 -21.85 -5.85 -21.4 -6.55 -20.9 -6.75 -20.45 -7 -19.9 -7 -19.35 -7 -19.1 -6.55 -18.8 -6.2 -18.8 -5.45 -18.8 -3.3 -20.15 -1.95 -20.8 -1.25 -21.7 -.9 -22.6 -.55 -23.75 -.55Z"/>
+              <path fill="#9C6" stroke="none" d="M-42 -8.5L-47.2 -7.95 -51.65 14.75 -45.15 14.1 -44.15 8.65Q-43.5 9 -41.7 9L-39.85 8.8 -38.05 8.25Q-36.2 7.5 -34.85 6.15 -34.15 5.5 -33.65 4.65 -33.15 3.8 -32.75 2.8 -32.05 .85 -32.05 -1.95 -32.05 -3.35 -32.4 -4.5 -32.75 -5.65 -33.5 -6.55 -35.15 -8.55 -38.3 -8.55 -41.1 -8.55 -42.4 -6.3L-42 -8.5M-38.15 -4.15Q-38.15 -2.65 -38.4 -1.1 -38.8 1.5 -39.2 3.25 -39.65 5 -40.15 5.85 -40.45 6.5 -40.95 6.8 -41.45 7.15 -42.25 7.15 -43.1 7.15 -43.75 6.55L-42.1 -2.8Q-41.45 -6.6 -39.5 -6.6 -38.85 -6.6 -38.5 -6.15 -38.15 -5.65 -38.15 -4.15Z"/>
+              <path fill="#FFF" stroke="none" d="M50.5 -7.35Q49.75 -7.95 48.6 -8.3 47.5 -8.6 45.95 -8.6 43.55 -8.6 41.6 -7.8 39.65 -7 38.25 -5.45 35.65 -2.5 35.65 2.35 35.65 3.9 36.05 5.1 36.5 6.3 37.3 7.15 38.2 8.05 39.5 8.5 40.8 9 43 9 45.2 9 47.25 7.95 48.25 7.45 48.85 6.65 49.45 5.9 49.45 4.7 49.45 3.5 48.65 2.95 48.1 3.85 46.8 4.4 45.55 4.95 44.3 4.95 43.1 4.95 42.45 4.4 41.8 3.85 41.8 2.35L41.9 .85Q46.75 .85 49.2 -.55 51.65 -2 51.65 -4.8 51.65 -5.6 51.35 -6.2 51.05 -6.85 50.5 -7.35M45.95 -7Q46.5 -7 46.75 -6.55 47.05 -6.2 47.05 -5.45 47.05 -3.3 45.7 -1.95 45.05 -1.25 44.15 -.9 43.25 -.55 42.1 -.55 42.8 -4.25 44 -5.85 44.45 -6.55 44.95 -6.75 45.4 -7 45.95 -7Z"/>
+              <path fill="#F36" stroke="none" d="M35.35 -14.7L28.85 -14.05 25.65 2.75Q25.4 4.7 25.4 5.9 25.4 6.95 26.2 7.85 27.25 9 28.85 9 32 9 33 6.6 32.35 6.55 32 6.1 31.7 5.6 31.7 4.7 31.7 3.85 32.2 1.5L35.35 -14.7Z"/>
+              <path fill="#36C" stroke="none" d="M17.2 -8.55Q14.4 -8.55 13.1 -6.3L13.5 -8.5 8.3 -7.95 3.85 14.75 10.35 14.1 11.35 8.65Q12 9 13.8 9L15.65 8.8 17.45 8.25Q19.3 7.5 20.65 6.15 21.35 5.5 21.85 4.65 22.35 3.8 22.75 2.8 23.45 .85 23.45 -1.95 23.45 -3.35 23.1 -4.5 22.75 -5.65 22 -6.55 20.35 -8.55 17.2 -8.55M17.35 -4.15Q17.35 -2.65 17.1 -1.1 16.7 1.5 16.3 3.25 15.85 5 15.35 5.85 15.05 6.5 14.55 6.8 14.05 7.15 13.25 7.15 12.4 7.15 11.75 6.55L13.4 -2.8Q14.05 -6.6 16 -6.6 16.65 -6.6 17 -6.15 17.35 -5.65 17.35 -4.15Z"/>
+              <path fill="#FC3" stroke="none" d="M3.45 -4.95Q3 -6.2 2.1 -7 .35 -8.6 -3.1 -8.6 -7.85 -8.6 -10.6 -5.4 -11.9 -3.85 -12.55 -1.9 -13.2 0 -13.2 2.35 -13.2 9 -6.2 9 -3.85 9 -2.05 8.25 -.25 7.5 1.1 6.05 3.85 3.05 3.85 -2.05 3.85 -3.75 3.45 -4.95M-5.35 -4.95Q-4.95 -5.8 -4.5 -6.25 -4 -6.7 -3.3 -6.7 -2.55 -6.7 -2.3 -6.1 -2.05 -5.55 -2.05 -4.65L-2.1 -2.6Q-2.15 -1.4 -2.65 1.3 -3.15 4.05 -3.8 5.55 -4.15 6.35 -4.6 6.75 -5.1 7.05 -5.8 7.05 -6.55 7.05 -6.85 6.5 -7.1 6 -7.1 5.15 -7.1 2.6 -6.75 .55L-6.05 -2.75Q-5.75 -4.05 -5.35 -4.95Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="snow" transform="translate(177.5 15)">
+      <g id="bigd54" transform="translate(.6 -28.1)">
+        <use xlink:href="#Symbol-67" transform="translate(-120.4 -14.05)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="-120.4,-14.05;-120.4,24.55;-120.4,24.55;-120.4,-14.05;-120.4,24.55;-120.4,24.55;-120.4,-14.05;-120.4,24.55;-120.4,24.55"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values=".79;.27;.27;.79;.27;.27;.79;.27;.27"/>
+        </use>
+        <use xlink:href="#Symbol-67" transform="translate(-84.25 13)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="-84.25,13;-84.25,51.6;-84.25,51.6;-84.25,13;-84.25,51.6;-84.25,51.6;-84.25,13;-84.25,51.6;-84.25,51.6"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values=".71;.18;.18;.71;.18;.18;.71;.18;.18"/>
+        </use>
+        <use xlink:href="#Symbol-67" transform="translate(-40.95 -4.8)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="-40.95,-4.8;-40.95,33.8;-40.95,33.8;-40.95,-4.8;-40.95,33.8;-40.95,33.8;-40.95,-4.8;-40.95,33.8;-40.95,33.8"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values=".62;.09;.09;.62;.09;.09;.62;.09;.09"/>
+        </use>
+        <use xlink:href="#Symbol-67" transform="translate(-54.2 67.3)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="-54.2,67.3;-54.2,105.9;-54.2,105.9;-54.2,67.3;-54.2,105.9;-54.2,105.9;-54.2,67.3;-54.2,105.9;-54.2,105.9"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values=".53;0;0;.53;0;0;.53;0;0"/>
+        </use>
+        <g>
+          <use xlink:href="#Symbol-67" transform="translate(11.05 41.5)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.33299;.333;.611;.66699;.667;.944;1" values="11.05,41.5;11.05,73.65;11.05,73.65;11.05,41.5;11.05,73.65;11.05,73.65;11.05,41.5;11.05,73.65;11.05,73.65"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.33299;.333;.611;.66699;.667;.944;1" values=".44;0;0;.44;0;0;.44;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.333;.63;.667;.963;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <use xlink:href="#Symbol-67" transform="translate(39.15 6.85)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="39.15,6.85;39.15,45.45;39.15,45.45;39.15,6.85;39.15,45.45;39.15,45.45;39.15,6.85;39.15,45.45;39.15,45.45"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values=".53;0;0;.53;0;0;.53;0;0"/>
+        </use>
+        <use xlink:href="#Symbol-67" transform="translate(72.95 23.4)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="72.95,23.4;72.95,62;72.95,62;72.95,23.4;72.95,62;72.95,62;72.95,23.4;72.95,62;72.95,62"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values=".62;.09;.09;.62;.09;.09;.62;.09;.09"/>
+        </use>
+        <use xlink:href="#Symbol-67" transform="translate(131.4 23.8)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="131.4,23.8;131.4,62.4;131.4,62.4;131.4,23.8;131.4,62.4;131.4,62.4;131.4,23.8;131.4,62.4;131.4,62.4"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values=".71;.18;.18;.71;.18;.18;.71;.18;.18"/>
+        </use>
+        <use xlink:href="#Symbol-67" transform="translate(104 49.3)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="104,49.3;104,87.9;104,87.9;104,49.3;104,87.9;104,87.9;104,49.3;104,87.9;104,87.9"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values=".79;.27;.27;.79;.27;.27;.79;.27;.27"/>
+        </use>
+        <g display="none">
+          <use xlink:href="#Symbol-67" transform="translate(-120.4 -29.05)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.315;.55599;.556;.648;.88899;.889;.981;1" values="-120.4,-29.05;-120.4,-29.05;-120.4,-16.2;-120.4,-16.2;-120.4,-29.05;-120.4,-16.2;-120.4,-16.2;-120.4,-29.05;-120.4,-16.2;-120.4,-16.2"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.315;.55599;.556;.648;.88899;.889;.981;1" values="1;1;.82;.82;1;.82;.82;1;.82;.82"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.333;.556;.667;.889;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-67" transform="translate(-84.25 -8.45)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.315;.49999;.5;.648;.83299;.833;.981;1" values="-84.25,-8.45;-84.25,-8.45;-84.25,10.85;-84.25,10.85;-84.25,-8.45;-84.25,10.85;-84.25,10.85;-84.25,-8.45;-84.25,10.85;-84.25,10.85"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.315;.49999;.5;.648;.83299;.833;.981;1" values="1;1;.73;.73;1;.73;.73;1;.73;.73"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.333;.5;.667;.833;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-67" transform="translate(-40.95 -32.65)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.315;.44399;.444;.648;.77799;.778;.981;1" values="-40.95,-32.65;-40.95,-32.65;-40.95,-6.95;-40.95,-6.95;-40.95,-32.65;-40.95,-6.95;-40.95,-6.95;-40.95,-32.65;-40.95,-6.95;-40.95,-6.95"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.315;.44399;.444;.648;.77799;.778;.981;1" values="1;1;.65;.65;1;.65;.65;1;.65;.65"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.333;.444;.667;.778;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-67" transform="translate(-54.2 33)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.315;.38899;.389;.648;.72199;.722;.981;1" values="-54.2,33;-54.2,33;-54.2,65.15;-54.2,65.15;-54.2,33;-54.2,65.15;-54.2,65.15;-54.2,33;-54.2,65.15;-54.2,65.15"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.315;.38899;.389;.648;.72199;.722;.981;1" values="1;1;.56;.56;1;.56;.56;1;.56;.56"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.333;.389;.667;.722;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <use xlink:href="#Symbol-67" transform="translate(11.05 .75)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="11.05,.75;11.05,39.35;11.05,39.35;11.05,.75;11.05,39.35;11.05,39.35;11.05,.75;11.05,39.35;11.05,39.35"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="1;.47;.47;1;.47;.47;1;.47;.47"/>
+        </use>
+        <g display="none">
+          <use xlink:href="#Symbol-67" transform="translate(39.15 -27.45)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.315;.38899;.389;.648;.72199;.722;.981;1" values="39.15,-27.45;39.15,-27.45;39.15,4.7;39.15,4.7;39.15,-27.45;39.15,4.7;39.15,4.7;39.15,-27.45;39.15,4.7;39.15,4.7"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.315;.38899;.389;.648;.72199;.722;.981;1" values="1;1;.56;.56;1;.56;.56;1;.56;.56"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.333;.389;.667;.722;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-67" transform="translate(72.95 -4.45)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.315;.44399;.444;.648;.77799;.778;.981;1" values="72.95,-4.45;72.95,-4.45;72.95,21.25;72.95,21.25;72.95,-4.45;72.95,21.25;72.95,21.25;72.95,-4.45;72.95,21.25;72.95,21.25"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.315;.44399;.444;.648;.77799;.778;.981;1" values="1;1;.65;.65;1;.65;.65;1;.65;.65"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.333;.444;.667;.778;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-67" transform="translate(131.4 2.35)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.315;.49999;.5;.648;.83299;.833;.981;1" values="131.4,2.35;131.4,2.35;131.4,21.65;131.4,21.65;131.4,2.35;131.4,21.65;131.4,21.65;131.4,2.35;131.4,21.65;131.4,21.65"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.315;.49999;.5;.648;.83299;.833;.981;1" values="1;1;.73;.73;1;.73;.73;1;.73;.73"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.333;.5;.667;.833;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-67" transform="translate(104 34.3)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.315;.55599;.556;.648;.88899;.889;.981;1" values="104,34.3;104,34.3;104,47.15;104,47.15;104,34.3;104,47.15;104,47.15;104,34.3;104,47.15;104,47.15"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.315;.55599;.556;.648;.88899;.889;.981;1" values="1;1;.82;.82;1;.82;.82;1;.82;.82"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.333;.556;.667;.889;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+      </g>
+      <g id="smalld54" transform="translate(.1 -33)">
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(-122.25 36.75)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.33299;.333;.352;.66699;.667;.685;1" values="-122.25,36.75;-122.25,40.65;-122.25,40.65;-122.25,36.75;-122.25,40.65;-122.25,40.65;-122.25,36.75;-122.25,40.65;-122.25,40.65"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.33299;.333;.352;.66699;.667;.685;1" values=".05;0;0;.05;0;0;.05;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.037;.333;.37;.667;.704;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(-140.2 92.4)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.074;.33299;.333;.407;.66699;.667;.741;1" values="-140.2,92.4;-140.2,107.95;-140.2,107.95;-140.2,92.4;-140.2,107.95;-140.2,107.95;-140.2,92.4;-140.2,107.95;-140.2,107.95"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.074;.33299;.333;.407;.66699;.667;.741;1" values=".21;0;0;.21;0;0;.21;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.093;.333;.426;.667;.759;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(-95.85 80.75)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.13;.33299;.333;.463;.66699;.667;.796;1" values="-95.85,80.75;-95.85,107.95;-95.85,107.95;-95.85,80.75;-95.85,107.95;-95.85,107.95;-95.85,80.75;-95.85,107.95;-95.85,107.95"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.13;.33299;.333;.463;.66699;.667;.796;1" values=".37;0;0;.37;0;0;.37;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.333;.481;.667;.815;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(-58.75 11.95)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.185;.33299;.333;.519;.66699;.667;.852;1" values="-58.75,11.95;-58.75,50.8;-58.75,50.8;-58.75,11.95;-58.75,50.8;-58.75,50.8;-58.75,11.95;-58.75,50.8;-58.75,50.8"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.185;.33299;.333;.519;.66699;.667;.852;1" values=".53;0;0;.53;0;0;.53;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.204;.333;.537;.667;.87;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(-40.7 28.4)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.241;.33299;.333;.574;.66699;.667;.907;1" values="-40.7,28.4;-40.7,78.9;-40.7,78.9;-40.7,28.4;-40.7,78.9;-40.7,78.9;-40.7,28.4;-40.7,78.9;-40.7,78.9"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.241;.33299;.333;.574;.66699;.667;.907;1" values=".68;0;0;.68;0;0;.68;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.259;.333;.593;.667;.926;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(11.7 -16.25)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.33299;.333;.63;.66699;.667;.963;1" values="11.7,-16.25;11.7,45.9;11.7,45.9;11.7,-16.25;11.7,45.9;11.7,45.9;11.7,-16.25;11.7,45.9;11.7,45.9"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.33299;.333;.63;.66699;.667;.963;1" values=".84;0;0;.84;0;0;.84;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.333;.648;.667;.981;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <use xlink:href="#Symbol-66" transform="translate(57 3.8)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="57,3.8;57,69.8;57,69.8;57,3.8;57,69.8;57,69.8;57,3.8;57,69.8;57,69.8"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="1;.11;.11;1;.11;.11;1;.11;.11"/>
+        </use>
+        <use xlink:href="#Symbol-66" transform="translate(24.1 18.25)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="24.1,18.25;24.1,84.25;24.1,84.25;24.1,18.25;24.1,84.25;24.1,84.25;24.1,18.25;24.1,84.25;24.1,84.25"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="1;.11;.11;1;.11;.11;1;.11;.11"/>
+        </use>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(-25.2 44.6)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.33299;.333;.63;.66699;.667;.963;1" values="-25.2,44.6;-25.2,106.75;-25.2,106.75;-25.2,44.6;-25.2,106.75;-25.2,106.75;-25.2,44.6;-25.2,106.75;-25.2,106.75"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.296;.33299;.333;.63;.66699;.667;.963;1" values=".84;0;0;.84;0;0;.84;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.333;.648;.667;.981;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(87.6 61.05)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.241;.33299;.333;.574;.66699;.667;.907;1" values="87.6,61.05;87.6,111.55;87.6,111.55;87.6,61.05;87.6,111.55;87.6,111.55;87.6,61.05;87.6,111.55;87.6,111.55"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.241;.33299;.333;.574;.66699;.667;.907;1" values=".68;0;0;.68;0;0;.68;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.259;.333;.593;.667;.926;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(89.9 -2.8)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.185;.33299;.333;.519;.66699;.667;.852;1" values="89.9,-2.8;89.9,36.05;89.9,36.05;89.9,-2.8;89.9,36.05;89.9,36.05;89.9,-2.8;89.9,36.05;89.9,36.05"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.185;.33299;.333;.519;.66699;.667;.852;1" values=".53;0;0;.53;0;0;.53;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.204;.333;.537;.667;.87;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(133.3 40.35)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.13;.33299;.333;.463;.66699;.667;.796;1" values="133.3,40.35;133.3,67.55;133.3,67.55;133.3,40.35;133.3,67.55;133.3,67.55;133.3,40.35;133.3,67.55;133.3,67.55"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.13;.33299;.333;.463;.66699;.667;.796;1" values=".37;0;0;.37;0;0;.37;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.148;.333;.481;.667;.815;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(115.7 78.4)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.074;.33299;.333;.407;.66699;.667;.741;1" values="115.7,78.4;115.7,93.95;115.7,93.95;115.7,78.4;115.7,93.95;115.7,93.95;115.7,78.4;115.7,93.95;115.7,93.95"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.074;.33299;.333;.407;.66699;.667;.741;1" values=".21;0;0;.21;0;0;.21;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.093;.333;.426;.667;.759;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <g>
+          <use xlink:href="#Symbol-66" transform="translate(140.2 98.15)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.33299;.333;.352;.66699;.667;.685;1" values="140.2,98.15;140.2,102.05;140.2,102.05;140.2,98.15;140.2,102.05;140.2,102.05;140.2,98.15;140.2,102.05;140.2,102.05"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.019;.33299;.333;.352;.66699;.667;.685;1" values=".05;0;0;.05;0;0;.05;0;0"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.037;.333;.37;.667;.704;1" values="inline;none;inline;none;inline;none;none"/>
+        </g>
+        <use xlink:href="#Symbol-66" transform="translate(-122.25 -33.15)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="-122.25,-33.15;-122.25,32.85;-122.25,32.85;-122.25,-33.15;-122.25,32.85;-122.25,32.85;-122.25,-33.15;-122.25,32.85;-122.25,32.85"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="1;.11;.11;1;.11;.11;1;.11;.11"/>
+        </use>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(-140.2 34.15)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.315;.38899;.389;.648;.72199;.722;.981;1" values="-140.2,34.15;-140.2,34.15;-140.2,88.5;-140.2,88.5;-140.2,34.15;-140.2,88.5;-140.2,88.5;-140.2,34.15;-140.2,88.5;-140.2,88.5"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.315;.38899;.389;.648;.72199;.722;.981;1" values="1;1;.26;.26;1;.26;.26;1;.26;.26"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.333;.389;.667;.722;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(-95.85 34.15)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.315;.44399;.444;.648;.77799;.778;.981;1" values="-95.85,34.15;-95.85,34.15;-95.85,76.85;-95.85,76.85;-95.85,34.15;-95.85,76.85;-95.85,76.85;-95.85,34.15;-95.85,76.85;-95.85,76.85"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.315;.44399;.444;.648;.77799;.778;.981;1" values="1;1;.42;.42;1;.42;.42;1;.42;.42"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.333;.444;.667;.778;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(-58.75 -23)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.315;.49999;.5;.648;.83299;.833;.981;1" values="-58.75,-23;-58.75,-23;-58.75,8.05;-58.75,8.05;-58.75,-23;-58.75,8.05;-58.75,8.05;-58.75,-23;-58.75,8.05;-58.75,8.05"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.315;.49999;.5;.648;.83299;.833;.981;1" values="1;1;.58;.58;1;.58;.58;1;.58;.58"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.333;.5;.667;.833;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(-40.7 5.1)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.315;.55599;.556;.648;.88899;.889;.981;1" values="-40.7,5.1;-40.7,5.1;-40.7,24.5;-40.7,24.5;-40.7,5.1;-40.7,24.5;-40.7,24.5;-40.7,5.1;-40.7,24.5;-40.7,24.5"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.315;.55599;.556;.648;.88899;.889;.981;1" values="1;1;.74;.74;1;.74;.74;1;.74;.74"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.333;.556;.667;.889;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(11.7 -27.9)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.315;.61099;.611;.648;.94399;.944;.981;1" values="11.7,-27.9;11.7,-27.9;11.7,-20.15;11.7,-20.15;11.7,-27.9;11.7,-20.15;11.7,-20.15;11.7,-27.9;11.7,-20.15;11.7,-20.15"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.315;.61099;.611;.648;.94399;.944;.981;1" values="1;1;.89;.89;1;.89;.89;1;.89;.89"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.333;.611;.667;.944;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(-25.2 32.95)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.315;.61099;.611;.648;.94399;.944;.981;1" values="-25.2,32.95;-25.2,32.95;-25.2,40.7;-25.2,40.7;-25.2,32.95;-25.2,40.7;-25.2,40.7;-25.2,32.95;-25.2,40.7;-25.2,40.7"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.315;.61099;.611;.648;.94399;.944;.981;1" values="1;1;.89;.89;1;.89;.89;1;.89;.89"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.278;.333;.611;.667;.944;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(87.6 37.75)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.315;.55599;.556;.648;.88899;.889;.981;1" values="87.6,37.75;87.6,37.75;87.6,57.15;87.6,57.15;87.6,37.75;87.6,57.15;87.6,57.15;87.6,37.75;87.6,57.15;87.6,57.15"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.315;.55599;.556;.648;.88899;.889;.981;1" values="1;1;.74;.74;1;.74;.74;1;.74;.74"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.222;.333;.556;.667;.889;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(89.9 -37.75)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.315;.49999;.5;.648;.83299;.833;.981;1" values="89.9,-37.75;89.9,-37.75;89.9,-6.7;89.9,-6.7;89.9,-37.75;89.9,-6.7;89.9,-6.7;89.9,-37.75;89.9,-6.7;89.9,-6.7"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.315;.49999;.5;.648;.83299;.833;.981;1" values="1;1;.58;.58;1;.58;.58;1;.58;.58"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.167;.333;.5;.667;.833;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(133.3 -6.25)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.315;.44399;.444;.648;.77799;.778;.981;1" values="133.3,-6.25;133.3,-6.25;133.3,36.45;133.3,36.45;133.3,-6.25;133.3,36.45;133.3,36.45;133.3,-6.25;133.3,36.45;133.3,36.45"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.315;.44399;.444;.648;.77799;.778;.981;1" values="1;1;.42;.42;1;.42;.42;1;.42;.42"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.111;.333;.444;.667;.778;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <g display="none">
+          <use xlink:href="#Symbol-66" transform="translate(115.7 20.15)">
+            <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.315;.38899;.389;.648;.72199;.722;.981;1" values="115.7,20.15;115.7,20.15;115.7,74.5;115.7,74.5;115.7,20.15;115.7,74.5;115.7,74.5;115.7,20.15;115.7,74.5;115.7,74.5"/>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.315;.38899;.389;.648;.72199;.722;.981;1" values="1;1;.26;.26;1;.26;.26;1;.26;.26"/>
+          </use>
+          <animate attributeName="display" repeatCount="indefinite" dur="2.25s" keyTimes="0;.056;.333;.389;.667;.722;1" values="none;inline;none;inline;none;inline;inline"/>
+        </g>
+        <use xlink:href="#Symbol-66" transform="translate(140.2 28.25)">
+          <animateTransform attributeName="transform" additive="replace" type="translate" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="140.2,28.25;140.2,94.25;140.2,94.25;140.2,28.25;140.2,94.25;140.2,94.25;140.2,28.25;140.2,94.25;140.2,94.25"/>
+          <animate attributeName="opacity" repeatCount="indefinite" dur="2.25s" keyTimes="0;.315;.33299;.333;.648;.66699;.667;.981;1" values="1;.11;.11;1;.11;.11;1;.11;.11"/>
+        </use>
+      </g>
+    </g>
+    <g>
+      <use xlink:href="#clapMand54" transform="matrix(.909 0 0 .909 100.6 97.35)" filter="url(#filter)"/>
+      <use xlink:href="#clapMand54" transform="matrix(.909 0 0 .909 151.95 97.35)" filter="url(#filter1)"/>
+      <use xlink:href="#clapMand54" transform="matrix(.909 0 0 .909 203.3 97.35)" filter="url(#filter2)"/>
+      <use xlink:href="#clapMand54" transform="matrix(.909 0 0 .909 254.65 97.35)" filter="url(#filter3)"/>
+      <use xlink:href="#clapMand54" transform="matrix(.909 0 0 .909 306.1 97.35)" filter="url(#filter4)"/>
+      <use xlink:href="#clapMand54" transform="matrix(.909 0 0 .909 49.25 97.35)" filter="url(#filter5)"/>
+    </g>
+  </g>
+</svg>

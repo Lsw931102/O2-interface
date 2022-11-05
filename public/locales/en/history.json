@@ -1,0 +1,17 @@
+{
+  "title": "History",
+  "BankTransaction": "Bank Trans",
+  "FarmTransaction": "Farm Trans",
+  "Liquidated": "Liquidated",
+  "All": "ALL",
+  "Deposit": "Deposit",
+  "Borrow": "Borrow",
+  "Repay": "Repay",
+  "Withdraw": "Withdraw",
+  "Claim": "Claim",
+  "Cross": "Cross",
+  "CrossChain": "Cross-chain",
+  "Approve": "Approve",
+  "Stake": "Stake",
+  "Unstake": "Unstake"
+}
