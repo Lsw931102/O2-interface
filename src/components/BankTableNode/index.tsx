@@ -5,6 +5,8 @@ import { useRouter } from 'next/router'
 
 import BaseButton from '@/components/BaseButton'
 
+import addIcon from '@/assets/images/addIcon.png'
+import minusIcon from '@/assets/images/minusIcon.png'
 import signal from '@/assets/images/svg/signal.svg'
 export interface IProps {
   record: any
@@ -21,7 +23,7 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
       <BaseButton
         w="124px"
         text={t('Deposit')}
-        buttonType="add"
+        specialIcon={<Image src={addIcon} w="24px" ml="15px" />}
         bgColor="green.570"
         iconBg="gray.700"
         iconStyle={{ color: 'white' }}
@@ -33,7 +35,7 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
       <BaseButton
         w="138px"
         text={t('Withdraw')}
-        buttonType="remove"
+        specialIcon={<Image src={minusIcon} w="24px" ml="15px" />}
         bgColor="green.570"
         iconBg="gray.700"
         iconStyle={{ color: 'white' }}
@@ -45,7 +47,7 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
       <BaseButton
         w="121px"
         text={t('Borrow')}
-        buttonType="add"
+        specialIcon={<Image src={addIcon} w="24px" ml="15px" />}
         bgColor="green.570"
         iconBg="gray.700"
         iconStyle={{ color: 'white' }}
@@ -57,7 +59,7 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
       <BaseButton
         w="112px"
         text={t('Repay')}
-        buttonType="remove"
+        specialIcon={<Image src={minusIcon} w="24px" ml="15px" />}
         bgColor="green.570"
         iconBg="gray.700"
         iconStyle={{ color: 'white' }}
@@ -71,7 +73,7 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
         text={t('TokenInfo')}
         buttonType="shutOff"
         bgColor="green.570"
-        iconBg="gray.700"
+        iconBg="white"
         iconStyle={{ color: 'white' }}
         textStyle={{
           marginRight: '15px',

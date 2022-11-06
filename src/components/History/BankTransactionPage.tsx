@@ -191,10 +191,12 @@ function Index({ selectOptions, selectValue, selectChange }: IProps) {
             w="full"
             h={{ base: px2vw(60), xl: '60px' }}
             borderRadius="16px"
-            bgColor="gray.200"
+            bgColor="grey.275"
             text="Load More"
             textStyle={{
-              color: 'purple.300',
+              fontSize: { base: px2vw(16), xl: '16px' },
+              fontWeight: '400',
+              color: 'white',
               textAlign: 'center',
             }}
             specialIcon={

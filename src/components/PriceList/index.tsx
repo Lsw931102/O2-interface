@@ -4,14 +4,13 @@ import { useInterval } from 'react-use'
 import px2vw from '@/utils/px2vw'
 import fluxReportStore from '@/stores/contract/fluxReport'
 import marketsStore from '@/stores/contract/markets'
-import globalStore from '@/stores/global'
+// import globalStore from '@/stores/global'
 import PriceCard from '@/components/PriceCard'
-import { findIcon } from '@/utils/common'
+// import { findIcon } from '@/utils/common'
 
 function PriceList() {
-  const { fluxJson, connectNet } = globalStore()
   const { marketList } = marketsStore()
-  const { allMarkets, getAllMarkets, fluxPrice, getFluxPrice } = fluxReportStore()
+  const { allMarkets, getAllMarkets, getFluxPrice } = fluxReportStore()
 
   useEffect(() => {
     if (marketList?.length) {
@@ -26,13 +25,13 @@ function PriceList() {
     getAllMarkets()
   }, 10000)
 
-  const fluxData: any = {
-    address: fluxJson?.[connectNet as string].contracts['ZO'] || 'ZO',
-    symbol: 'ZO',
-    tokenIcon: findIcon('zo'),
-    tokenPrice: fluxPrice,
-    oracle: 'SWAP',
-  }
+  // const fluxData: any = {
+  //   address: fluxJson?.[connectNet as string].contracts['ZO'] || 'ZO',
+  //   symbol: 'ZO',
+  //   tokenIcon: findIcon('zo'),
+  //   tokenPrice: fluxPrice,
+  //   oracle: 'SWAP',
+  // }
 
   return (
     <Flex
@@ -43,7 +42,7 @@ function PriceList() {
       flexWrap="wrap"
       justifyContent={{ base: 'space-between', xl: 'flex-start' }}
     >
-      {[fluxData].concat(allMarkets).map((item: any) => (
+      {allMarkets.map((item: any) => (
         <PriceCard key={item?.address} data={item} />
       ))}
     </Flex>

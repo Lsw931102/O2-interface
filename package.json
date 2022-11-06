@@ -10,7 +10,7 @@
   "scripts": {
     "postinstall": "npm run gen:theme-typings",
     "clean": "rimraf .next out",
-    "dev": "next dev",
+    "dev": "PORT=3001 next dev",
     "build": "npm run clean && cross-env EVN_FILE_NAME=dev next build",
     "build:prod": "npm run clean && cross-env EVN_FILE_NAME=prod next build",
     "export": "cross-env EVN_FILE_NAME=dev next export",
