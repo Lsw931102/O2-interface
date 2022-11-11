@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Stack, Image, Text } from '@chakra-ui/react'
+import { Stack, Image, Text } from '@chakra-ui/react'
 
 import px2vw from '@/utils/px2vw'
 

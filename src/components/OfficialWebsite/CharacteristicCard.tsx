@@ -8,7 +8,6 @@ import {
   BoxProps,
   TextProps,
   CenterProps,
-  Flex,
   Stack,
 } from '@chakra-ui/react'
 import px2vw from '@/utils/px2vw'

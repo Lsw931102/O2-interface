@@ -88,31 +88,27 @@ function Index({ onClose }: IProps) {
   }
 
   const addFun = async (chooseWallet: IWallet, chain: NetEnum) => {
-    if (chain === NetEnum.eth || chain === NetEnum.ethTest) {
-      changeFun(chain)
-    } else {
-      try {
-        const curConfig = netconfigs[chain]
-        await chooseWallet?.provider()?.request({
-          method: 'wallet_addEthereumChain',
-          params: [
-            {
-              chainId: `0x${curConfig?.ChainId.toString(16)}`,
-              chainName: curConfig?.networkName,
-              rpcUrls: [curConfig?.networkRpcUrl || curConfig?.defaultRpcUrl],
-              blockExplorerUrls: [curConfig?.scanUrl],
-              nativeCurrency: {
-                name: curConfig?.symbol,
-                symbol: curConfig?.nativeCoin,
-                decimals: 18,
-              },
+    try {
+      const curConfig = netconfigs[chain]
+      await chooseWallet?.provider()?.request({
+        method: 'wallet_addEthereumChain',
+        params: [
+          {
+            chainId: `0x${curConfig?.ChainId.toString(16)}`,
+            chainName: curConfig?.networkName,
+            rpcUrls: [curConfig?.networkRpcUrl || curConfig?.defaultRpcUrl],
+            blockExplorerUrls: [curConfig?.scanUrl],
+            nativeCurrency: {
+              name: curConfig?.symbol,
+              symbol: curConfig?.nativeCoin,
+              decimals: 18,
             },
-          ],
-        })
-        changeFun(chain)
-      } catch (addError: any) {
-        console.log('addEthereumChain Error:' + addError?.message)
-      }
+          },
+        ],
+      })
+      changeFun(chain)
+    } catch (addError: any) {
+      console.log('addEthereumChain Error:' + addError?.message)
     }
   }
   return (

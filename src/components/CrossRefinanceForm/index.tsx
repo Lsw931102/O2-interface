@@ -607,7 +607,7 @@ function CrossRefinanceForm() {
     ) {
       // 选择的资产是hotpot支持的资产：获取目标链流动性
       try {
-        const contract = getReadContract(
+        const contract: any = getReadContract(
           hotpotConfigJson?.networks?.[transHotpotOkex(selectChain?.key)]?.hotpotLens,
           HotpotLensAbi,
           selectChain?.key as NetEnum
@@ -632,7 +632,7 @@ function CrossRefinanceForm() {
           selectChain?.key as NetEnum
         )
 
-        const desDecimal = await desTokenContract.decimals()
+        const desDecimal = await desTokenContract?.decimals()
 
         setLiquidity(
           new BigNumber(utils.formatUnits(res?.cash, desDecimal))

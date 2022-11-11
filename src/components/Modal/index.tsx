@@ -25,7 +25,7 @@ export interface IModalProps extends ModalProps {
   modalBodyProps?: any
   bg?: string // 背景色
   data?: any
-
+  hasBg?: boolean
   children: any
   // | React.ReactNode
   // | ReactElement<any, string | JSXElementConstructor<any>>

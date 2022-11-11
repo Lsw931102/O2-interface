@@ -4,7 +4,7 @@ import globalStore from '@/stores/global'
 import axios from 'axios'
 import { i18n } from 'next-i18next'
 
-const fillOption = async function (
+export const fillOption = async function (
   tx: { estimateGasAndCollateral: (arg0: any) => Promise<any> },
   options: {
     from?: string
@@ -42,80 +42,40 @@ export async function sendTransactionFun(
   hashCallback: any,
   completeCallback: any
 ) {
-  const { userAddress, connectNet } = globalStore.getState()
-  if (connectNet === NetEnum.conflux || connectNet === NetEnum.confluxTest) {
-    const resArgs = args
-    let op: any = null
-    if (Array.isArray(resArgs)) {
-      if (resArgs?.length === 0) {
-        op = contract[method]()
-      } else {
-        if (resArgs?.length === 1) {
-          op = contract[method](resArgs[0])
-        } else {
-          op = contract[method](resArgs[0], resArgs[1])
-        }
-      }
-    } else {
-      op = resArgs ? contract[method](resArgs) : contract[method]()
-    }
-    fillOption(op, {
-      from: userAddress,
-      value: value,
-      to: contract?.address,
-    })
-      .then(async (res) => {
-        const tx = op.sendTransaction(res)
-        const txHash = await tx.get()
-        hashCallback && hashCallback(txHash.hash)
-        await tx
-          .executed()
-          .then((res: any) => {
-            // 交易完成
-            completeCallback && completeCallback(res)
-          })
-          .catch((e: any) => {
-            completeCallback && completeCallback({ err: e })
-          })
-      })
-      .catch((e) => {
-        completeCallback && completeCallback({ err: e })
-      })
-  } else {
-    try {
-      const { connectNet, userAddress } = globalStore.getState()
-      const netConfig = netconfigs[connectNet as NetEnum]
-      const gasUsed = await contract.estimateGas[method](...args, { value, from: userAddress })
-      const gasLimit = gasUsed.mul(130).div(100)
-      let gasPrice = null
-      if (netConfig?.gasHttpUrl) {
-        try {
-          const res: any = await axios.get(netConfig?.gasHttpUrl, { timeout: 3000 })
-          if (res?.status === '1' && res?.result?.ProposeGasPrice) {
-            gasPrice = (res?.result?.ProposeGasPrice * 1.3 * 1e9).toFixed(0)
-          }
-        } catch {
-          // gas价格接口请求失败则忽略
-        }
-      }
-      const ops = gasPrice
-        ? { value, gasLimit, gasPrice, from: userAddress }
-        : { value, gasLimit, from: userAddress }
-      const tx = await contract[method](...args, ops)
-      hashCallback && hashCallback(tx.hash)
-      // 拿到交易hash
-      tx.wait().then((res: any) => {
-        // 交易完成
-        completeCallback && completeCallback(res)
-      })
-    } catch (err) {
-      // 错误查询错误信息
+  const { userAddress } = globalStore.getState()
+  try {
+    const { connectNet, userAddress } = globalStore.getState()
+    const netConfig = netconfigs[connectNet as NetEnum]
+    const gasUsed = await contract.estimateGas[method](...args, { value, from: userAddress })
+    const gasLimit = gasUsed.mul(130).div(100)
+    let gasPrice = null
+    if (netConfig?.gasHttpUrl) {
       try {
-        await contract.connect(userAddress).callStatic[method](...args, { value })
-        completeCallback && completeCallback({ err })
-      } catch (error) {
-        completeCallback && completeCallback({ err: error })
+        const res: any = await axios.get(netConfig?.gasHttpUrl, { timeout: 3000 })
+        if (res?.status === '1' && res?.result?.ProposeGasPrice) {
+          gasPrice = (res?.result?.ProposeGasPrice * 1.3 * 1e9).toFixed(0)
+        }
+      } catch {
+        // gas价格接口请求失败则忽略
       }
+    }
+    const ops = gasPrice
+      ? { value, gasLimit, gasPrice, from: userAddress }
+      : { value, gasLimit, from: userAddress }
+    const tx = await contract[method](...args, ops)
+    hashCallback && hashCallback(tx.hash)
+    // 拿到交易hash
+    tx.wait().then((res: any) => {
+      // 交易完成
+      completeCallback && completeCallback(res)
+    })
+  } catch (err) {
+    // 错误查询错误信息
+    try {
+      await contract.connect(userAddress).callStatic[method](...args, { value })
+      completeCallback && completeCallback({ err })
+    } catch (error) {
+      completeCallback && completeCallback({ err: error })
     }
   }
 }
