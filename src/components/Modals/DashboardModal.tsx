@@ -1,15 +1,9 @@
 import React from 'react'
-import { TextProps, Image } from '@chakra-ui/react'
+import { TextProps } from '@chakra-ui/react'
 import ModalTab, { InfoItemProps } from '@/components//ModalTab'
 import Modal from '@/components/Modal'
 import { IModalProps } from '@/components/Modal'
 import useGetLoanPoolMeta from '@/hooks/useGetLoanPoolMeta'
-import px2vw from '@/utils/px2vw'
-
-import forTheP from '@/assets/images/svg/forTheP.svg'
-import fromTheP from '@/assets/images/svg/fromTheP.svg'
-import globalStore from '@/stores/global'
-import { NetEnum } from '@/consts'
 
 export type PickModalProps = Pick<IModalProps, 'isOpen' | 'onClose' | 'children' | 'footerRender'>
 export interface DashboardModalProps extends PickModalProps {
@@ -45,20 +39,8 @@ function Index({
   footerRender,
 }: DashboardModalProps) {
   const { info, getLoanPoolMeta } = useGetLoanPoolMeta(record)
-  const { connectNet } = globalStore()
   return (
     <Modal isOpen={isOpen} onClose={onClose} footerRender={footerRender}>
-      {record?.symbol === 'PEOPLE' &&
-        (connectNet === NetEnum.eth || connectNet === NetEnum.ethTest) && (
-          <Image
-            src={
-              currentTab.label === 'DEPOSIT' || currentTab.label === 'REPAY' ? forTheP : fromTheP
-            }
-            ignoreFallback
-            marginBottom={{ base: px2vw(22), xl: '22px' }}
-          />
-        )}
-
       <ModalTab
         tokenIcon={info?.tokenIcon}
         tabs={tabs}

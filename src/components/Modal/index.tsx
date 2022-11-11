@@ -4,7 +4,6 @@ import {
   ModalContent,
   ModalOverlay,
   ModalProps,
-  Box,
   Image,
   Center,
   ModalCloseButton,
@@ -16,10 +15,8 @@ import px2vw from '@/utils/px2vw'
 import BaseButton from '@/components/BaseButton'
 
 import buttonCancel from '@/assets/images/svg/buttonCancel.svg'
-import modalBg from '@/assets/images/modalBg.png'
 
 export interface IModalProps extends ModalProps {
-  hasBg?: boolean //是否有背景
   hasCloseButton?: boolean //是否有叉叉的关闭按钮
   hasTopRightCloseButton?: boolean //是否有右上方的关闭按钮
   footerRender?: () => React.ReactNode
@@ -40,7 +37,6 @@ export interface IModalProps extends ModalProps {
 }
 
 function Index({
-  hasBg = true,
   isOpen,
   data,
   isCentered = true,
@@ -49,7 +45,6 @@ function Index({
   hasTopRightCloseButton = false,
   width = 375,
   padding = 20,
-  bg = '',
   onClose,
   footerRender,
   modalBodyProps,
@@ -63,7 +58,7 @@ function Index({
         position="relative"
         // maxWidth={{ base: 'inherit', xl: 'inintal' }}
         marginTop={{ base: 'inherit', lg: px2vw(260), xl: 'inherit' }}
-        background={bg || 'bg'}
+        background="grey.600"
         borderRadius="xl"
         w={{ base: '98vw', xl: width }}
         minW={{ base: '98vw', xl: width }}
@@ -104,9 +99,9 @@ function Index({
                     h={{ base: px2vw(46), xl: '46px' }}
                     w={{ base: px2vw(46), xl: '46px' }}
                     minW="initial"
-                    borderRadius="round"
+                    bg="grey.660"
+                    borderRadius="llg"
                     margin={{ base: `${px2vw(40)} auto 0`, xl: '40px auto 0' }}
-                    opacity={0.5}
                     // isCircular
                     specialIcon={
                       <Image
@@ -121,20 +116,6 @@ function Index({
                 </Center>
               )}
         </ModalBody>
-        {/* 下方的图 */}
-        {hasBg && (
-          <Box
-            zIndex="-1"
-            position="absolute"
-            bottom={{ base: px2vw(-5), xl: '-5px' }}
-            left="0"
-            height={{ base: px2vw(170), xl: '170px' }}
-            width="100%"
-            backgroundImage={modalBg}
-            backgroundRepeat="no-repeat"
-            borderBottomLeftRadius={{ base: px2vw(25), xl: '25px' }}
-          />
-        )}
       </ModalContent>
     </Modal>
   )

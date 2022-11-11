@@ -162,8 +162,9 @@ const WithDrawModalContent = React.memo(({ record, onClose, onConfirm }: DashMod
           text: borrowBalance && borrowBalance > 0 ? 'SAFE MAX' : 'MAX',
           textStyle: {
             textAlign: 'center',
-            lineHeight: { base: px2vw(14), xl: '16px' },
-            fontSize: { base: px2vw(14), xl: '16px' },
+            lineHeight: { base: px2vw(14), xl: '14px' },
+            fontSize: { base: px2vw(14), xl: '14px' },
+            fontWeight: '500',
             whiteSpace: 'normal',
           },
         }}

@@ -576,7 +576,7 @@ function Index() {
         record={selectRecord}
         currentTab={currentDespositTab}
         tabs={despositTab}
-        tabColor="green.100"
+        tabColor="white"
         isOpen={depositModalIsOpen}
         onSelect={(value) => {
           setDespositTab(value)
@@ -598,7 +598,7 @@ function Index() {
         record={selectRecord}
         currentTab={currentBorrowTab}
         tabs={borrowTab}
-        tabColor="purple.100"
+        tabColor="white"
         isOpen={borrowModalIsOpen}
         onSelect={(value) => {
           setCurrentBorrowTab(value)
