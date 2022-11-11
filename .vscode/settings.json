@@ -62,5 +62,6 @@
     "YAPR",
     "YCTL",
     "zustand"
-  ]
+  ],
+  "nuxt.isNuxtApp": false
 }

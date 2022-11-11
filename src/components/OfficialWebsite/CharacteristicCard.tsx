@@ -9,12 +9,16 @@ import {
   TextProps,
   CenterProps,
   Flex,
+  Stack,
 } from '@chakra-ui/react'
 import px2vw from '@/utils/px2vw'
-import { completeUrl } from '@/utils/common'
+// import { completeUrl } from '@/utils/common'
 
 import SwiperCore, { Pagination, Autoplay } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
+
+import newsBorder from '@/assets/images/newsBorder.png'
+
 SwiperCore.use([Pagination, Autoplay])
 
 export interface CharacteristicCardIProps extends BoxProps {
@@ -34,7 +38,7 @@ export const CardRender = (item: CharacteristicCardIProps) => {
       w={{ base: 'full', xl: '260px' }}
       h={{ base: px2vw(299), xl: '299px' }}
       pt={{ base: px2vw(50), xl: '50px' }}
-      bgImage={completeUrl('official-website/characteristicCard.svg')}
+      bgImage={newsBorder}
       bgRepeat="no-repeat"
       bgSize="contain"
       bgPos="center"
@@ -48,17 +52,19 @@ export const CardRender = (item: CharacteristicCardIProps) => {
         <Image mx="auto" {...item?.imgprop} />
       </Center>
       <Text
-        mb={{ base: px2vw(40), xl: '40px' }}
+        mb={{ base: px2vw(40), xl: '20px' }}
         textStyle="18"
-        color="#D2E4FF"
+        color="#56B45F"
         fontWeight="600"
         textAlign="center"
         {...item?.titletextprop}
       />
       <Text
-        mb={{ base: px2vw(40), xl: '40px' }}
-        textStyle="14"
-        color="#D2E4FF"
+        mb={{ base: px2vw(40), xl: '20px' }}
+        padding={{ base: 0, xl: '0 10px' }}
+        textStyle="12"
+        lineHeight="16px"
+        color="silver.300"
         fontWeight="300"
         textAlign="center"
         {...item?.contenttextprop}
@@ -71,11 +77,11 @@ function Index({ ...prop }: IProps) {
   const pcPage = useMemo(
     () => {
       return (
-        <Flex w="full" justifyContent="space-between">
+        <Stack direction="row" spacing="100px" justifyContent="center">
           {prop.cardList.map((item: CharacteristicCardIProps, index: number) => {
             return <CardRender key={index} {...item} />
           })}
-        </Flex>
+        </Stack>
       )
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps

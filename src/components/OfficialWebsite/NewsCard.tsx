@@ -5,6 +5,8 @@ import { completeUrl } from '@/utils/common'
 
 import SwiperCore, { Pagination, Autoplay } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
+
+// import newsBorder from '@/assets/images/newsBorder.png'
 SwiperCore.use([Pagination, Autoplay])
 
 export interface NewCardIProps extends BoxProps {

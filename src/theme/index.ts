@@ -61,6 +61,7 @@ const colors = {
   silver: {
     '100': 'rgba(205, 205, 255, 0.3)',
     '200': 'rgba(255, 255, 255, 0.5)',
+    '300': 'rgba(255, 255, 255, 0.7)',
   },
   yellow: { '100': '#F5CE81', '200': '#F28F1D' },
   blue: {
@@ -165,6 +166,16 @@ const textStyles = {
     lineHeight: {
       base: px2vw(36),
       md: '36px',
+    },
+  },
+  '60': {
+    fontSize: {
+      base: px2vw(60),
+      md: '60px',
+    },
+    lineHeight: {
+      base: px2vw(60),
+      md: '60px',
     },
   },
 }
