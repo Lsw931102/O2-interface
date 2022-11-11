@@ -1,4 +1,4 @@
-import { Box, Center, Text } from '@chakra-ui/react'
+import { Box, Center, Text, Image } from '@chakra-ui/react'
 import React, { useContext, useMemo, useState } from 'react'
 import { utils } from 'ethers'
 import BigNumber from 'bignumber.js'
@@ -19,6 +19,7 @@ import { getWalletContract } from '@/contracts/funcs'
 import { CoinMarket, ERC20Market } from '@/contracts/abis'
 import px2vw from '@/utils/px2vw'
 import dashboardStore, { despositTab } from '@/stores/pages/dashboard'
+import addIcon from '@/assets/images/addIcon.png'
 
 const Index = React.memo(({ record, onClose, onConfirm }: DashModalContentProps) => {
   const { t } = useTranslation(['dashboard'])
@@ -147,8 +148,9 @@ const Index = React.memo(({ record, onClose, onConfirm }: DashModalContentProps)
             text: 'SAFE MAX',
             textStyle: {
               textAlign: 'center',
-              lineHeight: { base: px2vw(14), xl: '16px' },
-              fontSize: { base: px2vw(14), xl: '16px' },
+              lineHeight: { base: px2vw(14), xl: '14px' },
+              fontSize: { base: px2vw(14), xl: '14px' },
+              fontWeight: '500',
               whiteSpace: 'normal',
             },
           }}
@@ -185,7 +187,8 @@ const Index = React.memo(({ record, onClose, onConfirm }: DashModalContentProps)
             text: t('Borrow'),
             disabled: isButtonLoading || Boolean(errorInfoBorrow),
             isLoading: isButtonLoading,
-            buttonType: 'add',
+            // buttonType: 'add',
+            specialIcon: () => <Image src={addIcon} w="24px" ml="15px" />,
             onClick: () => {
               submit()
             },

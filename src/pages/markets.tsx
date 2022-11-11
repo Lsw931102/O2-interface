@@ -55,7 +55,12 @@ function Bank() {
                   <NumberTips value={totalMarketSize as number} symbol="$" shortNum={2} />
                 )}
               </Text>
-              <Text textAlign="center" textStyle={{ base: '12', xl: '24' }} color="green.100">
+              <Text
+                textAlign="center"
+                textStyle={{ base: '12', xl: '24' }}
+                fontWeight="300"
+                color="grey.100"
+              >
                 {t('TotalMarketSize')}
               </Text>
             </Flex>
@@ -77,7 +82,12 @@ function Bank() {
                   <NumberTips value={totalBorrowings as number} symbol="$" shortNum={2} />
                 )}
               </Text>
-              <Text textAlign="center" textStyle={{ base: '12', xl: '24' }} color="purple.100">
+              <Text
+                textAlign="center"
+                textStyle={{ base: '12', xl: '24' }}
+                fontWeight="300"
+                color="grey.100"
+              >
                 {t('TotalBorrowings')}
               </Text>
             </Flex>

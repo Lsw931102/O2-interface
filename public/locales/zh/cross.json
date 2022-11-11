@@ -24,7 +24,7 @@
   "Insufficient deposit balance": "存款余额不足",
   "CONTINUE": "继续",
   "Health factor is less than 120%, are you sure to continue": "健康系数已经超过 120%, 确定继续吗",
-  "The flux balance is less than the handling fee": "ZO余额小于手续费,去",
+  "The flux balance is less than the handling fee": "O2余额小于手续费,去",
   "exchange": "兑换",
   "Health factor is less than 115% after withdraw": "取款后健康系数将低于115%",
   "Health factor is less than 120%, are you sure to continue?": "健康系数低于120%，您确定继续吗?"

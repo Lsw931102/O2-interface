@@ -177,7 +177,7 @@ function Index({ ...prop }: IProps) {
               )
             )}
             tabs={borrowTab}
-            tabColor="purple.100"
+            tabColor="white"
             currentTab={currentBorrowTab}
             isOpen={borrowModalIsOpen}
             onSelect={(val) => setCurrentBorrowTab(val)}
@@ -219,7 +219,7 @@ function Index({ ...prop }: IProps) {
               )
             )}
             tabs={despositTab}
-            tabColor="green.100"
+            tabColor="white"
             currentTab={currentDespositTab}
             isOpen={depositModalIsOpen}
             onSelect={(val) => setDespositTab(val)}

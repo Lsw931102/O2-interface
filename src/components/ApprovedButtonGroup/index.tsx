@@ -99,6 +99,8 @@ function Index({
       <BaseButton
         h={{ base: px2vw(40), xl: '40px' }}
         w={{ base: px2vw(100), xl: '100px' }}
+        bg="grey.660"
+        borderRadius="llg"
         buttonClick={() => {
           dashboardStore.setState({
             borrowModalIsOpen: false,
@@ -113,15 +115,16 @@ function Index({
         w={{ base: 'auto', xl: 'auto' }}
         h={{ base: px2vw(40), xl: '40px' }}
         minWidth={{ base: px2vw(138), xl: '138px' }}
-        textStyle={{ width: { base: 'auto', xl: 'inherit' }, whiteSpace: 'nowrap' }}
+        textStyle={{ width: { base: 'auto', xl: 'inherit' }, whiteSpace: 'nowrap', color: 'white' }}
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
         {...rightButtonProps}
         text={textMemo}
         buttonType={buttonClickMemo}
         onClick={handleClick}
         disabled={isDisabledMemo}
         isLoading={isLoadingMemo}
+        bgColor="green.570"
       />
     </HStack>
   )

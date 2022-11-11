@@ -5,6 +5,8 @@ import { useRouter } from 'next/router'
 
 import BaseButton from '@/components/BaseButton'
 
+import addIcon from '@/assets/images/addIcon.png'
+import minusIcon from '@/assets/images/minusIcon.png'
 import signal from '@/assets/images/svg/signal.svg'
 export interface IProps {
   record: any
@@ -21,9 +23,11 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
       <BaseButton
         w="124px"
         text={t('Deposit')}
-        buttonType="add"
+        specialIcon={<Image src={addIcon} w="24px" ml="15px" />}
+        bgColor="green.570"
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
+        textStyle={{ color: 'white' }}
         buttonClick={() => {
           onButtonsClick('Deposit', record)
         }}
@@ -31,9 +35,11 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
       <BaseButton
         w="138px"
         text={t('Withdraw')}
-        buttonType="remove"
+        specialIcon={<Image src={minusIcon} w="24px" ml="15px" />}
+        bgColor="green.570"
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
+        textStyle={{ color: 'white' }}
         buttonClick={() => {
           onButtonsClick('Withdraw', record)
         }}
@@ -41,9 +47,11 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
       <BaseButton
         w="121px"
         text={t('Borrow')}
-        buttonType="add"
+        specialIcon={<Image src={addIcon} w="24px" ml="15px" />}
+        bgColor="green.570"
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
+        textStyle={{ color: 'white' }}
         buttonClick={() => {
           onButtonsClick('Borrow', record)
         }}
@@ -51,9 +59,11 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
       <BaseButton
         w="112px"
         text={t('Repay')}
-        buttonType="remove"
+        specialIcon={<Image src={minusIcon} w="24px" ml="15px" />}
+        bgColor="green.570"
         iconBg="gray.700"
-        iconStyle={{ color: 'green.100' }}
+        iconStyle={{ color: 'white' }}
+        textStyle={{ color: 'white' }}
         buttonClick={() => {
           onButtonsClick('Repay', record)
         }}
@@ -62,13 +72,15 @@ function Index({ record, underlying, onButtonsClick }: IProps) {
         w="149px"
         text={t('TokenInfo')}
         buttonType="shutOff"
-        iconBg="gray.700"
+        bgColor="green.570"
+        iconBg="white"
+        iconStyle={{ color: 'white' }}
         textStyle={{
           marginRight: '15px',
           whiteSpace: 'nowrap',
+          color: 'white',
         }}
         specialIcon={<Image src={signal} />}
-        iconStyle={{ color: 'green.100' }}
         onClick={() => router.push(`/marketinfo?token=${underlying}`)}
       />
     </HStack>

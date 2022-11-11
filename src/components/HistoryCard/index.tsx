@@ -2,14 +2,15 @@ import React, { useMemo } from 'react'
 import { Box, Flex, Text, Image, CenterProps } from '@chakra-ui/react'
 import px2vw from '@/utils/px2vw'
 import { TxType } from '@/consts/status'
-import { completeUrl, findIcon } from '@/utils/common'
-// import { turn } from '@/theme/animations'
+import { findIcon } from '@/utils/common'
 
 import ReturnDate from './ReturnDate'
 import ReturnType from './ReturnType'
 import NumberTips from '../NumberTips'
 import { netconfigs } from '@/consts/network'
 import globalStore from '@/stores/global'
+
+import historyShare from '@/assets/images/historyShare.png'
 
 type cardStatus = 'success' | 'fail' | 'loading'
 
@@ -32,8 +33,8 @@ function Index({ ...prop }: IProps) {
       <Box
         w={{ base: px2vw(355), xl: '355px' }}
         h={{ base: px2vw(90), xl: '90px' }}
-        bgColor="gray.200"
-        borderRadius="16px"
+        bgColor="grey.275"
+        borderRadius="llg"
         p="15px"
         {...prop}
       >
@@ -81,7 +82,7 @@ function Index({ ...prop }: IProps) {
               <Image
                 w={{ base: px2vw(20), xl: '20px' }}
                 h={{ base: px2vw(20), xl: '20px' }}
-                src={completeUrl('history/historyShare.svg')}
+                src={historyShare}
                 cursor="pointer"
                 onClick={() => {
                   window.open(`${netconfigs[connectNet || '']?.txScanUrl}/${prop?.hash}`, '_blank')
@@ -124,8 +125,8 @@ function Index({ ...prop }: IProps) {
             {/* 数量及单位 */}
             <Text
               textStyle="18"
-              lineHeight={{ base: px2vw(20), xl: '20px' }}
-              color="purple.300"
+              lineHeight={{ base: px2vw(18), xl: '18px' }}
+              color="white"
               cursor="default"
             >
               {prop?.othercoin ? (

@@ -15,13 +15,13 @@ function Index({ data }: IProps) {
       p={{ base: `${px2vw(20)} 0`, xl: '20px 0' }}
       mt={{ base: px2vw(15), xl: '20px' }}
       ml={{ base: 0, xl: '15px' }}
-      bg="gray.200"
-      borderRadius="xl"
+      bg="grey.275"
+      borderRadius="llg"
     >
-      <Text textStyle="16" fontWeight="bold">
+      <Text color="grey.100" textStyle="16" fontWeight="bold">
         {data?.symbol}
       </Text>
-      <Text mt={{ base: px2vw(5), xl: '5px' }} textStyle="16" fontWeight="bold">
+      <Text mt={{ base: px2vw(5), xl: '5px' }} textStyle="16" fontWeight="500">
         {data?.tokenPrice !== null ? (
           <NumberTips symbol="$" value={data?.tokenPrice} shortNum={2} />
         ) : (
@@ -38,7 +38,7 @@ function Index({ data }: IProps) {
       />
       <Text
         mt={{ base: px2vw(20), xl: '20px' }}
-        color="purple.700"
+        color="grey.450"
         textStyle="12"
         fontWeight="normal"
       >

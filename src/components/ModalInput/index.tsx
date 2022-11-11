@@ -25,7 +25,7 @@ function Index({ record, isApproved, buttonProps, inputProps, errorInfo }: Modal
   const errorInfoMemo = useMemo(() => {
     if (record?.isCoinMarket) {
       if (!isApproved) {
-        return errorInfo?.startsWith('请先授权') || errorInfo?.startsWith('Approve')
+        return errorInfo?.startsWith('Please approve first') || errorInfo?.startsWith('Approve')
           ? ''
           : errorInfo
       } else {
@@ -42,12 +42,12 @@ function Index({ record, isApproved, buttonProps, inputProps, errorInfo }: Modal
         spacing={{ base: px2vw(23), xl: '46px' }}
         width="100%"
         padding={{ base: px2vw(10), xl: '10px' }}
-        borderRadius="md"
+        borderRadius="llg"
         backgroundColor="gray.400"
         border={errorInfoMemo ? '1px solid' : 'inherit'}
         borderColor={errorInfoMemo ? 'red.200' : 'inherit'}
       >
-        <VStack paddingLeft={{ base: px2vw(35), xl: '35px' }} color="purple.300" alignItems="left">
+        <VStack paddingLeft={{ base: px2vw(35), xl: '35px' }} color="white" alignItems="left">
           <HStack textStyle="22">
             <BaseInput
               variant="unstyled"
@@ -62,7 +62,7 @@ function Index({ record, isApproved, buttonProps, inputProps, errorInfo }: Modal
                 inputProps.valChange(v)
               }}
             />
-            <Text>{record?.symbol}</Text>
+            <Text fontWeight="bold">{record?.symbol}</Text>
           </HStack>
           <Text>
             ≈ <NumberTips symbol="$" value={total} shortNum={2} />
@@ -72,7 +72,8 @@ function Index({ record, isApproved, buttonProps, inputProps, errorInfo }: Modal
           h={{ base: px2vw(50), xl: '50px' }}
           w={{ base: px2vw(50), xl: '50px' }}
           minW="inherit"
-          borderRadius="50%"
+          borderRadius="xl"
+          bg="grey.50"
           {...buttonProps}
         />
       </HStack>

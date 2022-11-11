@@ -56,7 +56,7 @@ export const ModalRender = React.memo(
             currentTab={currentBorrowTab}
             isOpen={borrowModalIsOpen}
             tabs={borrowTab}
-            tabColor="purple.100"
+            tabColor="white"
             onSelect={(val) => setCurrentBorrowTab(val)}
             onClose={() => {
               onCloseClick()
@@ -98,7 +98,7 @@ export const ModalRender = React.memo(
             )}
             currentTab={currentDespositTab}
             tabs={despositTab}
-            tabColor="green.100"
+            tabColor="white"
             isOpen={depositModalIsOpen}
             onSelect={(val) => setDespositTab(val)}
             onClose={() => {
