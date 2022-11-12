@@ -188,9 +188,9 @@ function OfficialWebsite() {
           direction="row"
           alignItems="center"
           justifyContent="center"
-          width="200px"
-          height="60px"
-          margin="100px auto 200px"
+          width={{ base: px2vw(200), md: '200px' }}
+          height={{ base: px2vw(60), md: '60px' }}
+          margin={{ base: `${px2vw(70)} auto ${px2vw(100)}`, md: '100px auto 200px' }}
           background="linear-gradient(180deg, #0C8DC6 0%, #52B25C 100%)"
           opacity="0.7"
           border="3px solid rgba(0, 0, 0, 0.3)"

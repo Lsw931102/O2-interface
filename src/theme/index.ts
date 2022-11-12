@@ -175,6 +175,16 @@ const textStyles = {
       md: '36px',
     },
   },
+  '40': {
+    fontSize: {
+      base: px2vw(40),
+      md: '40px',
+    },
+    lineHeight: {
+      base: px2vw(40),
+      md: '40px',
+    },
+  },
   '60': {
     fontSize: {
       base: px2vw(60),

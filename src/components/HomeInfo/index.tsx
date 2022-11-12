@@ -18,13 +18,19 @@ export interface IProps {
 }
 function Index(props: IProps) {
   return (
-    <Stack direction="row" spacing="100px" margin="0 auto" alignItems="center">
+    <Stack
+      direction={{ base: 'column', md: 'row' }}
+      spacing={{ base: px2vw(50), md: '100px' }}
+      margin="0 auto"
+      justify="center"
+      alignItems="center"
+    >
       {/* LEFT AREA */}
       <Stack direction="column" spacing="30px" alignItems="center">
         <Image
           src={O2HomeLogo}
-          height={{ base: px2vw(280), md: '280px' }}
-          width={{ base: px2vw(280), md: '280px' }}
+          height={{ base: px2vw(239), md: '280px' }}
+          width={{ base: px2vw(239), md: '280px' }}
         />
         <Image
           src={eosDefi}
@@ -34,36 +40,40 @@ function Index(props: IProps) {
       </Stack>
       {/* RIGHT AREA */}
 
-      <Stack direction="column" spacing="40px">
+      <Stack direction="column" spacing="40px" alignItems={{ base: 'center', md: 'flex-start' }}>
         {/* totalValue */}
         <Stack direction="column" spacing="10px">
-          <Text textStyle="60">
+          <Text textStyle={{ base: '40', md: '60' }}>
             {props?.tvl ? <NumberTips value={props?.tvl} symbol="$" isAbbr shortNum={2} /> : '--'}
           </Text>
-          <Text textStyle="22" color="purple.300">
+          <Text textStyle={{ base: '16', md: '22' }} color="purple.300">
             Total value locked in O2
           </Text>
         </Stack>
         {/* marketSize */}
         <Stack direction="column" spacing="10px">
-          <Text textStyle="36">
+          <Text textStyle={{ base: '24', md: '36' }}>
             {props?.marketSize ? (
               <NumberTips value={props?.marketSize} symbol="$" isAbbr shortNum={2} />
             ) : (
               '--'
             )}
           </Text>
-          <Text textStyle="22" color="purple.300">
+          <Text textStyle={{ base: '16', md: '22' }} color="purple.300">
             Market Size
           </Text>
         </Stack>
         {/* otherInfos */}
         <Stack direction="row" spacing="10px">
-          <Stack padding={`0 20px`} borderLeft="2px solid" borderColor="silver.200">
+          <Stack
+            padding={`0 20px`}
+            borderLeft={{ base: '0', md: '2px solid' }}
+            borderColor="silver.200"
+          >
             <Text textStyle="14" color="purple.300">
               Max Supply
             </Text>
-            <Text textStyle="24" fontWeight="500" color="white">
+            <Text textStyle={{ base: '18', md: '24' }} fontWeight="500" color="white">
               {props?.maxSupply ? (
                 <NumberTips value={new BigNumber(props?.maxSupply).toFixed(0)} />
               ) : (
@@ -75,7 +85,7 @@ function Index(props: IProps) {
             <Text textStyle="14" color="purple.300">
               Total Supply
             </Text>
-            <Text textStyle="24" fontWeight="500" color="white">
+            <Text textStyle={{ base: '18', md: '24' }} fontWeight="500" color="white">
               {props?.totalSupply ? (
                 <NumberTips value={new BigNumber(props?.totalSupply).toFixed(0)} />
               ) : (
