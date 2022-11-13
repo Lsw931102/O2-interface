@@ -31,6 +31,7 @@ function Index({ healthFactor, hasBorrow }: healthFactorCmp) {
                     children: ':',
                   }}
                   textStyles={{
+                    color: 'grey.100',
                     textAlign: 'left',
                   }}
                 >

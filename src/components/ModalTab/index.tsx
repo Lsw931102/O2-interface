@@ -37,6 +37,7 @@ function Index({ tabs, color, currentTab, tokenIcon, onChange }: ModalTabProps) 
               }}
               color={isEuqal(currentTab, item) ? color : 'silver.100'}
               textStyle="18"
+              fontWeight="bold"
               _hover={buttonHover}
             >
               {t(item.label as any)}

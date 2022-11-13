@@ -73,7 +73,9 @@ const Index = React.memo(({ record, onClose, onConfirm }: DashModalContentProps)
               afterText={{
                 children: ':',
               }}
-              textStyles={{}}
+              textStyles={{
+                color: 'grey.100',
+              }}
             >
               <Text>{t('asCollateralToolTip')}</Text>
             </BaseTooltip>
@@ -89,7 +91,9 @@ const Index = React.memo(({ record, onClose, onConfirm }: DashModalContentProps)
               afterText={{
                 children: ':',
               }}
-              textStyles={{}}
+              textStyles={{
+                color: 'grey.100',
+              }}
             >
               <VStack>
                 <Text>{t('borrowPowerToolTipsFirst')}</Text>
@@ -124,7 +128,9 @@ const Index = React.memo(({ record, onClose, onConfirm }: DashModalContentProps)
               afterText={{
                 children: ':',
               }}
-              textStyles={{}}
+              textStyles={{
+                color: 'grey.100',
+              }}
             >
               <Text>{t('maximumLTVToolTips')}</Text>
             </BaseTooltip>

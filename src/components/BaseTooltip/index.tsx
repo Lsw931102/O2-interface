@@ -10,10 +10,9 @@ import {
   PopoverCloseButton,
   PopoverBody,
   Box,
-  Image,
 } from '@chakra-ui/react'
 import px2vw from '@/utils/px2vw'
-import { completeUrl } from '@/utils/common'
+// import { completeUrl } from '@/utils/common'
 import globalStore from '@/stores/global'
 
 export interface IProps extends TooltipProps {
@@ -127,7 +126,7 @@ function Index({ children, isPureVersion = false, isMultiple, ...prop }: IProps)
               >
                 {children}
               </Box>
-              {!isPureVersion && (
+              {/* {!isPureVersion && (
                 <Flex
                   justifyContent="flex-end"
                   cursor="pointer"
@@ -143,7 +142,7 @@ function Index({ children, isPureVersion = false, isMultiple, ...prop }: IProps)
                     my="auto"
                   />
                 </Flex>
-              )}
+              )} */}
             </PopoverBody>
           </PopoverContent>
         </Popover>

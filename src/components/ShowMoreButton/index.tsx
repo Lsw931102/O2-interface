@@ -15,7 +15,7 @@ function Index({ visible, text, onClick, arrowStyle, ...stackProps }: ShowMoreBu
   return (
     <HStack
       marginTop={{ base: px2vw(15), xl: '15px' }}
-      color="green.100"
+      color="green.700"
       spacing={{ base: px2vw(8), xl: '8px' }}
       width="max-content"
       onClick={onClick}

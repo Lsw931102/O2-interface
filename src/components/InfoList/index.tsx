@@ -21,10 +21,11 @@ export const InfoItem = React.memo(
         justifyContent="space-between"
         alignItems="center"
         width="100%"
+        color="grey.100"
         fontWeight="500"
         {...styleProps}
       >
-        {labelRender ? labelRender() : <Text color={labelColor}>{label}</Text>}
+        {labelRender ? labelRender() : <Text color={'grey.100' || labelColor}>{label}</Text>}
 
         {valueRender ? valueRender() : <Text fontWeight="500">{value}</Text>}
       </Flex>

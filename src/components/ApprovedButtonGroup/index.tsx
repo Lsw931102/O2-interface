@@ -99,7 +99,7 @@ function Index({
       <BaseButton
         h={{ base: px2vw(40), xl: '40px' }}
         w={{ base: px2vw(100), xl: '100px' }}
-        bg="grey.660"
+        bgColor="grey.660"
         borderRadius="llg"
         buttonClick={() => {
           dashboardStore.setState({
@@ -108,7 +108,6 @@ function Index({
           })
         }}
         specialIcon={<Image src={buttonCancel} />}
-        opacity={0.5}
         {...leftButtonProps}
       />
       <BaseButton
@@ -116,11 +115,11 @@ function Index({
         h={{ base: px2vw(40), xl: '40px' }}
         minWidth={{ base: px2vw(138), xl: '138px' }}
         textStyle={{ width: { base: 'auto', xl: 'inherit' }, whiteSpace: 'nowrap', color: 'white' }}
-        iconBg="gray.700"
+        iconBg="transprent"
         iconStyle={{ color: 'white' }}
+        buttonType={buttonClickMemo}
         {...rightButtonProps}
         text={textMemo}
-        buttonType={buttonClickMemo}
         onClick={handleClick}
         disabled={isDisabledMemo}
         isLoading={isLoadingMemo}
