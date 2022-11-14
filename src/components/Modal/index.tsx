@@ -59,7 +59,7 @@ function Index({
         // maxWidth={{ base: 'inherit', xl: 'inintal' }}
         marginTop={{ base: 'inherit', lg: px2vw(260), xl: 'inherit' }}
         background="grey.600"
-        borderRadius="xl"
+        borderRadius="xxl"
         w={{ base: '98vw', xl: width }}
         minW={{ base: '98vw', xl: width }}
         maxW={{ base: '98vw', xl: width }}
@@ -68,6 +68,8 @@ function Index({
         <ModalBody
           minHeight={{ base: px2vw(200), xl: '200px' }}
           padding={{ base: px2vw(padding), xl: `${padding}px` }}
+          background="grey.600"
+          borderRadius="xxl"
           {...modalBodyProps}
         >
           {hasTopRightCloseButton && <ModalCloseButton />}
@@ -96,22 +98,15 @@ function Index({
                   <BaseButton
                     needVerify={false}
                     buttonClick={onClose}
-                    h={{ base: px2vw(46), xl: '46px' }}
-                    w={{ base: px2vw(46), xl: '46px' }}
+                    h={{ base: px2vw(40), xl: '40px' }}
+                    w={{ base: px2vw(100), xl: '100px' }}
                     minW="initial"
                     bg="grey.660"
+                    bgColor="grey.660"
                     borderRadius="llg"
-                    margin={{ base: `${px2vw(40)} auto 0`, xl: '40px auto 0' }}
+                    margin={{ base: `${px2vw(30)} auto`, xl: '30px auto' }}
                     // isCircular
-                    specialIcon={
-                      <Image
-                        height={{ base: px2vw(22), xl: '22px' }}
-                        width={{ base: px2vw(22), xl: '22px' }}
-                        maxWidth="inherit"
-                        src={buttonCancel}
-                        ignoreFallback
-                      />
-                    }
+                    specialIcon={<Image src={buttonCancel} ignoreFallback />}
                   />
                 </Center>
               )}

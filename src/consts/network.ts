@@ -1,5 +1,6 @@
 import { NetEnv, NetEnum, WalletEnum, ChainType } from './index'
 import { completeUrl } from '@/utils/common'
+import trustWhite from '@/assets/images/trustWhite.png'
 
 export const netconfigs: { [key: string]: NetEnv | null } = {
   [NetEnum.trust]: null,
@@ -93,9 +94,9 @@ export const CHAINS: ChainInfo[] = [
     key: NetEnum.trustTest,
     type: ChainType.evm,
     chainId: 1,
-    name: 'Ethereum',
-    icon: completeUrl('chain/ethereum.png'),
-    iconEntity: completeUrl('chain-entity/ethereum.png'),
+    name: 'Trust Network Testnet Preview',
+    icon: trustWhite,
+    iconEntity: trustWhite,
     wallet: [WalletEnum.metamask, WalletEnum.walletconnect],
     defaultWallet: WalletEnum.metamask,
   },

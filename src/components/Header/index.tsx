@@ -24,7 +24,7 @@ import ConnectWallet from '@/components/ConnectWallet'
 import ConnectWalletH5 from '@/components/ConnectWallet/mobile'
 import Link from '@/components/Link'
 import Modal from '@/components/Modal'
-import { netconfigs } from '@/consts/network'
+import { netconfigs, CHAINS, ChainInfo } from '@/consts/network'
 import { ROUTES } from '@/consts/routes'
 import { WalletEnum, NetEnum, crossNet } from '@/consts'
 import { wallet, IWallet } from '@/utils/wallet'
@@ -161,22 +161,14 @@ function Index() {
         <SideBarPC />
         <Flex>
           {/* change chain */}
-          <Flex
-            alignItems="center"
-            h="100%"
-            p="0 30px"
-            borderLeft="1px solid"
-            borderColor="white"
-            cursor="pointer"
-            onClick={setChainVisible}
-          >
+          <Flex alignItems="center" h="100%" p="0 30px" cursor="pointer" onClick={setChainVisible}>
             {connectNet && (
               <Image
                 ignoreFallback
                 w="20px"
                 h="20px"
                 mr="3px"
-                src={completeUrl(`chain-entity/${connectNet}.png`)}
+                src={CHAINS.find((it: ChainInfo) => it.key === connectNet)?.iconEntity}
               />
             )}
             <Text fontWeight="500">{netconfigs[connectNet as NetEnum]?.networkName}</Text>
@@ -196,7 +188,7 @@ function Index() {
             h="100%"
             p="0 30px"
             borderLeft="1px solid"
-            borderColor="white"
+            borderColor="gray.70"
             cursor="pointer"
           >
             {isLogin ? (
@@ -228,6 +220,7 @@ function Index() {
               hasBg={false}
               width={375}
               padding={0}
+              hasCloseButton={true}
               onClose={() => setConnectVisible(false)}
             >
               <ConnectWallet onClose={() => setConnectVisible(false)} />
@@ -240,7 +233,7 @@ function Index() {
             h="100%"
             p="0 25px"
             borderLeft="1px solid"
-            borderColor="white"
+            borderColor="gray.70"
             cursor="pointer"
           >
             <Image ignoreFallback src={settingsIc} w="16px" h="16px" onClick={setSettingsVisible} />

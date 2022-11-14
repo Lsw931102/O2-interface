@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from 'react'
-import { useToggle } from 'react-use'
-import { Flex, Image, Text } from '@chakra-ui/react'
+import { Flex, Image, Text, Box } from '@chakra-ui/react'
 import { toast } from 'react-toastify'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
+import { isMobile } from 'react-device-detect'
+
 import px2vw from '@/utils/px2vw'
 import { CHAINS, SUPPORTED_WALLETS, netconfigs } from '@/consts/network'
 import { NetEnum } from '@/consts'
-import checkedIc from '@/assets/images/svg/check.svg'
 import { wallet, IWallet } from '@/utils/wallet'
 import { WalletEnum } from '@/consts'
 import { setSessionStorage, setStore, removeSessionStorage } from '@/utils/storage'
 import globalStore from '@/stores/global'
 import { changeUrl } from '@/utils/common'
-import { isMobile } from 'react-device-detect'
+import logo from '@/assets/images/logo.png'
+import goNext from '@/assets/images/goNext.png'
+import checkedIc from '@/assets/images/checked.png'
+import trustLight from '@/assets/images/trustLight.png'
+import trustDark from '@/assets/images/trustDark.png'
 
 interface IProps {
   onClose: () => void
@@ -22,8 +26,6 @@ function Index({ onClose }: IProps) {
   const { t } = useTranslation()
   const router = useRouter()
   const { connectNet } = globalStore()
-  // 协议是否勾选
-  const [isChecked, toogleCheck] = useToggle(false)
   // 选择的链
   const [curChain, setChain] = useState(0)
 
@@ -35,15 +37,6 @@ function Index({ onClose }: IProps) {
   }, [connectNet])
 
   const confirm = async (curWallet: WalletEnum) => {
-    if (!isChecked) {
-      toast.warn(t('Step1Tips'), {
-        position: 'top-center',
-        autoClose: 3000,
-        hideProgressBar: true,
-        theme: 'colored',
-      })
-      return
-    }
     try {
       const chooseWallet = wallet[curWallet]
       connectWallet(chooseWallet)
@@ -179,137 +172,44 @@ function Index({ onClose }: IProps) {
   return (
     <Flex
       direction="column"
+      alignItems="center"
       w={{ base: 'full', xl: '375px' }}
-      p={{ base: `${px2vw(25)} ${px2vw(30)} ${px2vw(40)}`, xl: '25px 30px 40px' }}
-      bg="bg"
+      p={{ base: `${px2vw(30)} ${px2vw(42)}`, xl: '30px 42px' }}
+      bg="grey.600"
+      borderRadius="xxl"
     >
-      <Text textStyle="18" fontWeight="bold">
+      <Image w={{ base: px2vw(43), xl: '43px' }} h={{ base: px2vw(43), xl: '43px' }} src={logo} />
+      <Text
+        mt={{ base: px2vw(10), xl: '10px' }}
+        mb={{ base: px2vw(20), xl: '20px' }}
+        textStyle="18"
+        fontWeight="bold"
+      >
         {t('Connect Wallet')}
       </Text>
-      {/* step1 */}
-      <Flex alignItems="center" mt={{ base: px2vw(20), xl: '20px' }} fontWeight="bold">
-        <Text>{t('Step1')}</Text>&nbsp;
-        <Text
-          color="white"
-          textDecoration="underline"
-          cursor="pointer"
-          onClick={() =>
-            window.open(
-              router.locale === 'zh'
-                ? 'https://fluxdoc.01.finance/v/cn/guan-yu-wo-men/flux-fu-wu-tiao-kuan'
-                : 'https://fluxdoc.01.finance/about-us/terms-of-service'
-            )
-          }
-        >
-          {t('Step1tail')}
-        </Text>
-      </Flex>
-      <Flex mt={{ base: px2vw(10), xl: '10px' }} alignItems="center">
-        <Flex
-          alignItems="center"
-          justifyContent="center"
-          w={{ base: px2vw(20), xl: '20px' }}
-          h={{ base: px2vw(20), xl: '20px' }}
-          mr={{ base: px2vw(5), xl: '5px' }}
-          borderRadius="4px"
-          border={isChecked ? 'none' : '2px solid'}
-          borderColor="purple.300"
-          bg={isChecked ? 'purple.300' : 'transparent'}
-          cursor="pointer"
-          onClick={toogleCheck}
-        >
-          {isChecked ? (
-            <Image
-              w={{ base: px2vw(18), xl: '18px' }}
-              h={{ base: px2vw(14), xl: '14px' }}
-              src={checkedIc}
-            />
-          ) : null}
-        </Flex>
-        <Text fontWeight="normal">{t('I have read and accept')}</Text>
-      </Flex>
-      {/* step2 */}
-      <Text mt={{ base: px2vw(20), xl: '20px' }} fontWeight="bold">
-        {t('Step2')}
-      </Text>
-      <Flex flexWrap="wrap">
-        {CHAINS.map((item, index) => (
-          <Flex
-            key={item?.key}
-            direction="column"
-            alignItems="center"
-            w="25%"
-            mt={{ base: px2vw(13), xl: '13px' }}
-            onClick={() => {
-              setChain(index)
-              globalStore.setState({
-                chooseNet: item?.key,
-              })
-            }}
-          >
-            <Flex
-              w={{ base: px2vw(54), xl: '54px' }}
-              h={{ base: px2vw(54), xl: '54px' }}
-              alignItems="center"
-              justifyContent="center"
-              bg={curChain === index ? 'gray.300' : 'transparent'}
-              _hover={{
-                bg: 'gray.50',
-              }}
-              borderRadius="round"
-              border={curChain === index ? '2px solid' : 'none'}
-              borderColor="purple.300"
-              boxSizing="border-box"
-            >
-              <Image
-                ignoreFallback
-                src={item?.iconEntity}
-                w={{ base: px2vw(40), xl: '40px' }}
-                h={{ base: px2vw(40), xl: '40px' }}
-                cursor="pointer"
-              />
-            </Flex>
-            <Text
-              mt={{ base: px2vw(10), xl: '10px' }}
-              textStyle="12"
-              fontWeight="normal"
-              textAlign="center"
-            >
-              {item?.name}
-            </Text>
-          </Flex>
-        ))}
-      </Flex>
-      {/* step3 */}
-      <Text mt={{ base: px2vw(20), xl: '20px' }} fontWeight="bold">
-        {t('Step3')}
-      </Text>
-      <Flex flexWrap="wrap">
+      {/* choose wallet */}
+      <Flex direction="column" w="100%">
         {CHAINS[curChain]?.wallet?.map((item) => {
           const walletItem = SUPPORTED_WALLETS[item]
           return (
             <Flex
               key={item}
-              direction="column"
               alignItems="center"
-              w="25%"
-              mt={{ base: px2vw(13), xl: '13px' }}
+              justifyContent="space-between"
+              bg="gray.200"
+              borderRadius="llg"
+              _hover={{
+                bg: 'grey.400',
+              }}
+              w="100%"
+              h={{ base: px2vw(50), xl: '50px' }}
+              mt={{ base: px2vw(20), xl: '20px' }}
+              pl={{ base: px2vw(20), xl: '20px' }}
+              pr={{ base: px2vw(10), xl: '10px' }}
+              cursor="pointer"
               onClick={() => confirm(item)}
             >
-              <Flex
-                w={{ base: px2vw(54), xl: '54px' }}
-                h={{ base: px2vw(54), xl: '54px' }}
-                alignItems="center"
-                justifyContent="center"
-                // bg={curWallet === item ? 'gray.300' : 'transparent'}
-                _hover={{
-                  bg: 'gray.50',
-                }}
-                borderRadius="round"
-                // border={curWallet === item ? '2px solid' : 'none'}
-                borderColor="purple.300"
-                boxSizing="border-box"
-              >
+              <Flex alignItems="center">
                 <Image
                   ignoreFallback
                   src={walletItem?.icon}
@@ -317,18 +217,76 @@ function Index({ onClose }: IProps) {
                   h={{ base: px2vw(40), xl: '40px' }}
                   cursor="pointer"
                 />
+                <Text
+                  ml={{ base: px2vw(15), xl: '15px' }}
+                  textStyle="18"
+                  fontWeight="500"
+                  textAlign="center"
+                >
+                  {walletItem?.name}
+                </Text>
               </Flex>
-              <Text
-                mt={{ base: px2vw(10), xl: '10px' }}
-                textStyle="12"
-                fontWeight="normal"
-                textAlign="center"
-              >
-                {walletItem?.name}
-              </Text>
+              <Image
+                ignoreFallback
+                src={goNext}
+                w={{ base: px2vw(30), xl: '30px' }}
+                h={{ base: px2vw(30), xl: '30px' }}
+              />
             </Flex>
           )
         })}
+      </Flex>
+      {/* choose chain */}
+      <Flex direction="column" w="100%" mt={{ base: px2vw(10), xl: '10px' }}>
+        {CHAINS.map((item, index) => (
+          <Flex
+            key={item?.key}
+            alignItems="center"
+            w="100%"
+            mt={{ base: px2vw(20), xl: '20px' }}
+            onClick={() => {
+              setChain(index)
+              globalStore.setState({
+                chooseNet: item?.key,
+              })
+            }}
+          >
+            {curChain === index ? (
+              <Image
+                ignoreFallback
+                src={checkedIc}
+                w={{ base: px2vw(16), xl: '16px' }}
+                h={{ base: px2vw(16), xl: '16px' }}
+                cursor="pointer"
+              />
+            ) : (
+              <Box
+                w={{ base: px2vw(16), xl: '16px' }}
+                h={{ base: px2vw(16), xl: '16px' }}
+                border="1.4px solid"
+                borderColor="gray.500"
+                borderRadius="round"
+              />
+            )}
+            <Image
+              ignoreFallback
+              src={curChain === index ? trustLight : trustDark}
+              w={{ base: px2vw(20), xl: '20px' }}
+              h={{ base: px2vw(20), xl: '20px' }}
+              ml={{ base: px2vw(15), xl: '15px' }}
+              mr={{ base: px2vw(10), xl: '10px' }}
+              cursor="pointer"
+            />
+            <Text
+              color={curChain === index ? 'grey.100' : 'black'}
+              textStyle="16"
+              fontWeight="normal"
+              textAlign="center"
+            >
+              {item?.name}
+            </Text>
+          </Flex>
+        ))}
       </Flex>
     </Flex>
   )

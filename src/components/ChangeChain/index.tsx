@@ -117,7 +117,7 @@ function Index({ onClose }: IProps) {
       alignItems="center"
       w={{ base: 'full', xl: '375px' }}
       p={{ base: `${px2vw(15)} 0 ${px2vw(27)}`, xl: '15px 0 27px' }}
-      bg="bg"
+      bg="grey.600"
       borderRadius={{ base: 0, xl: 'xl' }}
     >
       {CHAINS.map((item) => (
