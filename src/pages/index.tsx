@@ -184,6 +184,7 @@ function OfficialWebsite() {
         {/* <CircuitDiagram {...resultData} /> */}
         {/* launch 按钮 */}
         <Stack
+          zIndex={999}
           onClick={() => router.push('/markets')}
           direction="row"
           alignItems="center"
