@@ -13,7 +13,7 @@ import errorIc from '@/assets/images/error.png'
 import settingsIc from '@/assets/images/settings.png'
 import setInfoIc from '@/assets/images/setInfo.png'
 import logoH5 from '@/assets/images/logoH5.png'
-import headerBg from '@/assets/images/top-bg.png'
+// import headerBg from '@/assets/images/top-bg.png'
 import SideBarPC from '@/components/SideBar'
 import SideBar from '@/components/SideBar/mobile'
 import SetInfo from '@/components/SetInfo'
@@ -254,8 +254,8 @@ function Index() {
         zIndex="1401"
         w="full"
         h={px2vw(70)}
-        bg={`url(${headerBg}) no-repeat bottom center`}
-        backgroundSize={`100vw ${px2vw(70)}`}
+        // bg={`url(${headerBg}) no-repeat bottom center`}
+        // backgroundSize={`100vw ${px2vw(70)}`}
       >
         <Flex
           w="full"

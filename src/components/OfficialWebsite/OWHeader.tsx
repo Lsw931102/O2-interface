@@ -4,8 +4,8 @@ import { Flex, Text, Image, Stack } from '@chakra-ui/react'
 import px2vw from '@/utils/px2vw'
 import OWMenu from '../OWMenu'
 import { useTranslation } from 'next-i18next'
-import menuIc from '@/assets/images/menu.png'
-import headerBg from '@/assets/images/top-bg.png'
+import menuIc from '@/assets/images/MenuIcon.png'
+
 import O2HomeIcon from '@/assets/images/svg/O2HomeIcon.svg'
 
 export interface IProps {
@@ -24,17 +24,18 @@ function Index({ ...props }: IProps) {
           position={{ base: 'fixed', xl: 'initial' }}
           top="0"
           zIndex="1401"
-          bg={{ base: `url(${headerBg}) no-repeat bottom center`, xl: 'none' }}
+          bg={{ base: `none`, xl: 'none' }}
           backgroundSize={`100vw ${px2vw(70)}`}
           w="full"
-          justifyContent="space-between"
+          justifyContent={{ base: 'flex-end', md: 'space-between' }}
           alignItems="center"
-          // pt={{ base: 0, xl: '30px' }}
+          pt={{ base: px2vw(20), xl: '0px' }}
           pb={{ base: 0, xl: '100px' }}
           mb={{ base: px2vw(20), xl: 0 }}
           pl={{ base: px2vw(15), xl: 0 }}
+          pr={{ base: px2vw(20), xl: 0 }}
         >
-          <Stack direction="row" spacing="30px">
+          <Stack display={{ base: 'none', md: 'flex' }} direction="row" spacing="30px">
             <Image
               w={{ base: px2vw(16), xl: '40px' }}
               h={{ base: px2vw(16), xl: '40px' }}
@@ -69,7 +70,7 @@ function Index({ ...props }: IProps) {
 
           {/* 移动端右侧 */}
           <Flex display={{ base: 'initial', xl: 'none' }}>
-            <Image ignoreFallback src={menuIc} w={px2vw(46)} h={px2vw(46)} onClick={setOpen} />
+            <Image ignoreFallback src={menuIc} w={px2vw(24)} h={px2vw(24)} onClick={setOpen} />
             <OWMenu isOpen={isOpen} onClose={() => setOpen(false)} />
           </Flex>
         </Flex>
